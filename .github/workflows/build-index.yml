@@ -130,6 +130,9 @@ jobs:
           cp -r data dist/data
           # PDFs (publicly served)
           cp -r raw_assets dist/raw_assets
+          # Disable Jekyll so GitHub Pages serves Flutter's _flutter.js and other
+          # underscore-prefixed files without silently dropping them
+          touch dist/.nojekyll
 
       # ── 6. Deploy to gh-pages branch ────────────────────────────────────────
       - name: Deploy to GitHub Pages

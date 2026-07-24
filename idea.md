@@ -126,16 +126,22 @@ git push origin main
 ```
 
 **Admin workflow for adding a new book:**
-1. Copy the PDF to `raw_assets/` locally and push via git (see above).
-2. Log in at `/admin` with your GitHub account.
-3. Create a new catalog entry in the CMS with:
+
+*Admin (non-technical):*
+1. Sends the PDF to the developer via WhatsApp, email, or Google Drive.
+2. Provides the book title, language, and page count.
+3. Once the developer confirms the PDF is processed, logs in at `/admin` and fills in the book metadata form (see field list below), then clicks **Save**.
+
+*Developer:*
+1. Receives the PDF, copies it to `raw_assets/`, runs `ingest.py`, reviews the OCR output, commits PDF + index, and pushes to `main`.
+2. Notifies the admin with the Book ID, Index File Path, and PDF Path to enter into the CMS form.
+
+*Metadata form fields (admin fills these in the CMS):*
    - **Title** — free text
    - **Primary Language** — dropdown (select widget): Malayalam, Tamil, Hindi, Sanskrit
    - **Additional Languages** — multi-select (for mixed-language books, e.g. Tamil + Sanskrit)
    - **Page Count** — number field
-4. Click **Save** — this commits the catalog change to `main` and triggers GitHub Actions.
-5. The Actions workflow reads `primary_language` from `catalog.json`, runs `ingest.py` with the correct Tesseract language flag, builds Flutter Web, and deploys.
-6. Pull the branch locally, review `data/indices/<book>.json` for OCR errors, push corrections if needed.
+   - **Book ID / Index File Path / PDF Path** — provided by the developer
 
 ## 6. Frontend Implementation (Flutter)
 
