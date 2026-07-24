@@ -20,8 +20,7 @@ graph TD
     end
 
     subgraph "Admin Machine (local)"
-        G[ingest.py\nTesseract OCR]
-        H[Decap CMS\n/admin]
+      G[ingest.py\nTesseract OCR]
     end
 
     subgraph "GitHub Actions"
@@ -34,7 +33,6 @@ graph TD
     A -->|caches after first fetch| B
 
     G -->|writes| D
-    H -->|commits metadata| C
     I -->|runs| G
     I -->|flutter build web| F
     I -->|pushes dist/ to| F
@@ -97,8 +95,6 @@ scripts/
 web/                    Flutter Web configuration (merged into build output)
   index.html            Entry HTML; contains PDF.js CDN scripts for pdfx
   manifest.json         PWA manifest (name, theme colour, icons)
-  admin/
-    index.html          Decap CMS panel (served at /admin after deployment)
 
 docs/                   This documentation
 ```
@@ -150,7 +146,6 @@ docs/                   This documentation
 |---|---|---|
 | GitHub (repo + Pages) | Yes | Free for public repos |
 | GitHub Actions | Yes | 2,000 free minutes/month (public repo) |
-| Netlify auth proxy | Yes (admin only) | Free, used by Decap CMS for OAuth token exchange |
 | Cloudflare CDN (PDF.js) | Yes (web PDF view) | CDN for `pdf.min.js`; can self-host if preferred |
 | Apple Developer Account | No (until App Store) | $99/year, needed for TestFlight and App Store |
 | Google Play | No (until Play Store) | $25 one-time, needed for Play distribution |

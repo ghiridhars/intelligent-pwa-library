@@ -193,3 +193,55 @@ Workarounds:
 Tesseract processes one page at a time. Larger DPI increases both accuracy and runtime. DPI 200 is a good default; use 300 if titles are consistently misread.
 
 GitHub Actions free tier provides 2,000 minutes/month for public repos. Since OCR only runs on **changed PDFs** (detected by `git diff` in the workflow), a typical push that adds one book uses ~35 minutes of quota. Unrelated code pushes use ~5 minutes (Flutter build only).
+
+---
+
+## OCR automation now: what is realistic
+
+Yes, OCR can be automated further now, but full zero-touch accuracy is not realistic for this dataset. A practical approach is staged automation.
+
+### Level 0 (current)
+
+- Trigger OCR automatically on changed PDFs in CI.
+- Require manual review before accepting index quality.
+
+This is the safest baseline and is already implemented.
+
+### Level 1 (recommended now)
+
+Automate quality gates in CI so bad OCR output fails fast:
+
+1. **Missing-asset guard**: fail if any `asset_url` in `data/catalog.json` does not exist.
+2. **Index existence guard**: fail if a catalog entry references a missing `index_file`.
+3. **Basic OCR quality checks** on generated index:
+  - empty `title_native` count threshold
+  - duplicate `page_number` detection
+  - suspicious title patterns (very short titles, numeric-only titles)
+4. **Diff summary artifact**: upload a report (`ocr_report.json`) with counts and flagged entries.
+
+This keeps humans in control while eliminating obvious errors early.
+
+### Level 2 (semi-automated review)
+
+Add post-processing to reduce manual edits:
+
+1. Header/footer suppression using page region cropping before OCR.
+2. Language fallback pass for mixed-language books (e.g. run `tam` then retry failed pages with `san`).
+3. Transliteration helper script to prefill `title_en` suggestions (human-verified before commit).
+
+This can cut manual review time significantly, but still requires approval.
+
+### Level 3 (full automation, not recommended yet)
+
+Fully automatic commit of OCR output with no review is risky for your books due to typography and overflow-page edge cases. Expect noisy search data and production corrections.
+
+For this project, Level 1 + partial Level 2 is the best reliability/cost tradeoff.
+
+---
+
+## Next actions for automation
+
+1. Add CI guards for missing `asset_url` and `index_file` references.
+2. Add OCR quality thresholds and fail the workflow on severe anomalies.
+3. Upload an OCR quality report as a build artifact for quick review.
+4. Add optional second-pass language fallback for mixed-language books.

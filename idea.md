@@ -24,8 +24,6 @@ The repository is organized to separate the frontend application shell from the 
 ├── web/                         # Flutter Web configuration
 │   ├── index.html               # Entry point (base href injected by Flutter at build time)
 │   ├── manifest.json            # PWA manifest
-│   ├── admin/                   # Decap CMS (served at /admin after deployment)
-│   │   └── index.html
 │   └── icons/
 ├── data/                        # Generated JSON indices (fetched at runtime, not bundled)
 │   ├── catalog.json             # Master library list
@@ -113,11 +111,9 @@ Generated JSON index files are written to `/data/indices/`. **A human review ste
 
 ## 5. Application Management Interface
 
-**Decap CMS** (formerly Netlify CMS) is the admin interface for this library. It provides a browser-based visual dashboard at `yourdomain.com/admin`. Admins log in with their GitHub account, upload PDFs to `raw_assets/`, and fill in book metadata through visual forms — no command line required. Each save in the CMS creates a Git commit, which triggers the `build-index.yml` workflow to regenerate JSON indices and redeploy.
+Content operations are developer-managed via git. Admins provide the PDF and metadata through messaging/email/drive, and the developer performs OCR, metadata updates, and deployment.
 
-**One-time setup required:** Create a GitHub OAuth App in GitHub Developer Settings, setting the callback URL to `https://api.netlify.com/auth/done`. Decap CMS routes its auth token exchange through Netlify's free auth proxy — no Netlify hosting is required, only the proxy endpoint. The OAuth App credentials are stored in `web/admin/index.html`.
-
-**PDF files must be added via git, not via the CMS.** Uploading a 50MB binary through a browser-based CMS commits it via the GitHub Contents API, which is unreliable at that file size and frequently times out. Use the CMS only for metadata (catalog entries). Add PDFs by committing them locally:
+PDF files are added via git to ensure reliable commits for large files:
 
 ```bash
 git add raw_assets/newbook.pdf
@@ -125,23 +121,16 @@ git commit -m "Add new book PDF"
 git push origin main
 ```
 
-**Admin workflow for adding a new book:**
+**Workflow for adding a new book:**
 
 *Admin (non-technical):*
 1. Sends the PDF to the developer via WhatsApp, email, or Google Drive.
 2. Provides the book title, language, and page count.
-3. Once the developer confirms the PDF is processed, logs in at `/admin` and fills in the book metadata form (see field list below), then clicks **Save**.
+3. Once the developer confirms the PDF is processed, validates the live app output and shares corrections.
 
 *Developer:*
 1. Receives the PDF, copies it to `raw_assets/`, runs `ingest.py`, reviews the OCR output, commits PDF + index, and pushes to `main`.
-2. Notifies the admin with the Book ID, Index File Path, and PDF Path to enter into the CMS form.
-
-*Metadata form fields (admin fills these in the CMS):*
-   - **Title** — free text
-   - **Primary Language** — dropdown (select widget): Malayalam, Tamil, Hindi, Sanskrit
-   - **Additional Languages** — multi-select (for mixed-language books, e.g. Tamil + Sanskrit)
-   - **Page Count** — number field
-   - **Book ID / Index File Path / PDF Path** — provided by the developer
+2. Updates `data/catalog.json` directly in git and pushes to `main`.
 
 ## 6. Frontend Implementation (Flutter)
 
@@ -172,7 +161,7 @@ dependencies:
 
 ## 7. Deployment Workflow
 
-1. **Commit:** Code and scripts are pushed to `main` via CLI. PDFs are added to `raw_assets/` via git only (not the CMS). Catalog metadata changes can be made via Decap CMS at `/admin`.
+1. **Commit:** Code and scripts are pushed to `main` via CLI. PDFs are added to `raw_assets/` via git. Catalog metadata changes are made in `data/catalog.json`.
 
 2. **GitHub Actions (`build-index.yml`) pipeline:**
    ```

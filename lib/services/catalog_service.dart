@@ -36,7 +36,7 @@ class CatalogService {
       // Backward compatibility with older catalog.json shape.
       raw = decoded;
     } else if (decoded is Map<String, dynamic> && decoded['books'] is List<dynamic>) {
-      // CMS-friendly shape: { "books": [ ... ] }
+      // Supported shape: { "books": [ ... ] }
       raw = decoded['books'] as List<dynamic>;
     } else {
       throw Exception(

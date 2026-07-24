@@ -18,8 +18,9 @@ graph TD
     F --> E
     E --> G[flutter pub get\nflutter build web\n--base-href /repo-name/]
     G --> H[Assemble dist/\nbuild/web + data + raw_assets]
-    H --> I[peaceiris/actions-gh-pages\npush dist/ to gh-pages branch]
-    I --> J[GitHub Pages serves\ngh-pages branch root]
+    H --> I[upload-pages-artifact\npath: dist/]
+    I --> J[deploy-pages\npublish artifact]
+    J --> K[GitHub Pages serves\nsite URL]
 ```
 
 ### Change detection
@@ -40,15 +41,11 @@ dist/
       └── *.pdf
 ```
 
-The Flutter web output already includes `web/admin/` (Decap CMS) because Flutter copies the `web/` directory into `build/web/` during the build.
+The Flutter web output includes all static web assets. `data/` and `raw_assets/` are copied into `dist/` so they are served on the same origin as the app.
 
-### The `gh-pages` branch
+### GitHub Pages publish mode
 
-`peaceiris/actions-gh-pages` pushes `dist/` to the `gh-pages` branch on every workflow run, replacing its entire contents. GitHub Pages serves the root of that branch. This approach:
-
-- Keeps the `main` branch clean (no generated build artefacts).
-- Avoids the limitation of GitHub Pages only being able to serve from the repo root or `/docs` folder.
-- Ensures `scripts/` and other dev-only files are **never served** publicly.
+The workflow uses official Pages deployment actions and uploads `dist/` as a Pages artifact. GitHub then publishes that artifact. No direct branch-push deploy step is required.
 
 ---
 
@@ -81,29 +78,22 @@ flutter build web --base-href /your-repo-name/ --release
 
 This injects the correct path prefix into `web/index.html`. Without this, all asset references in the deployed app resolve against `https://username.github.io/` (the root) instead of `https://username.github.io/your-repo-name/`, causing 404 errors for every resource.
 
-### 3. Configure Decap CMS
+### 3. Content operations mode
 
-In `web/admin/index.html`, update:
-
-```js
-repo: "your-github-username/your-repo-name",
-client_id: "your-github-oauth-app-client-id"
-```
-
-See [Admin Guide — Decap CMS setup](admin-guide.md#decap-cms-setup-one-time) for how to create the GitHub OAuth App.
+Content publishing is developer-managed via git.
 
 ### 4. Enable GitHub Pages in repo settings
 
 1. Go to your repo on GitHub → **Settings** → **Pages**.
-2. Under **Source**, select **Deploy from a branch**.
-3. Select branch: **gh-pages**, folder: **/ (root)**.
+2. Under **Source**, select **GitHub Actions**.
+3. Save.
 4. Click **Save**.
 
 The `gh-pages` branch does not exist yet — it will be created automatically on the first workflow run.
 
-### 5. Grant Actions write permission
+### 5. Grant Actions permissions
 
-The workflow pushes to the `gh-pages` branch using `GITHUB_TOKEN`. This requires write permission:
+The workflow deploys through Pages actions and needs workflow-level permissions:
 
 1. Go to **Settings** → **Actions** → **General**.
 2. Under **Workflow permissions**, select **Read and write permissions**.
@@ -128,10 +118,10 @@ After a successful workflow run:
 | URL | What's served |
 |---|---|
 | `https://username.github.io/repo-name/` | Flutter Web app (library catalog) |
-| `https://username.github.io/repo-name/admin` | Decap CMS admin panel |
 | `https://username.github.io/repo-name/data/catalog.json` | Book catalog JSON |
 | `https://username.github.io/repo-name/data/indices/<id>.json` | Book index JSON |
 | `https://username.github.io/repo-name/raw_assets/<file>.pdf` | PDF (publicly accessible) |
+
 
 ---
 
@@ -188,5 +178,5 @@ static const String githubPagesUrl =
 Any push to `main` triggers a full redeploy. There is no separate "deploy" step — the pipeline handles everything. To update:
 
 - **App code change**: push the Dart change → Actions rebuilds Flutter Web and deploys.
-- **New book**: follow the [Admin Guide](admin-guide.md#adding-a-new-book--step-by-step) — push PDF + reviewed index + updated catalog → Actions deploys.
+- **New book**: follow the [Admin Guide](admin-guide.md#admin-workflow--adding-a-new-book-current) — push PDF + reviewed index + updated catalog → Actions deploys.
 - **Metadata correction**: edit `catalog.json` or a book index, commit, push → Actions deploys (no OCR re-run since no PDF changed).

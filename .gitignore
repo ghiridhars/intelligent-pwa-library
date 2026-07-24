@@ -86,7 +86,7 @@ ehthumbs.db
 Desktop.ini
 $RECYCLE.BIN/
 
-# ── Node / npm (Decap CMS local development, if applicable) ──────────────────
+# ── Node / npm ────────────────────────────────────────────────────────────────
 node_modules/
 npm-debug.log*
 yarn-error.log*

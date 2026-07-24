@@ -47,7 +47,7 @@ All data in this system is stored as static JSON files served via GitHub Pages. 
 ### Adding a book
 
 1. Add the PDF to `raw_assets/` via `git add` + `git commit`.
-2. Add an entry to `catalog.json` (via Decap CMS or by editing directly).
+2. Add an entry to `catalog.json` directly in git.
 3. Run `ingest.py` to generate the index (see [OCR Pipeline](ocr-pipeline.md)).
 4. Review and commit the generated index file.
 

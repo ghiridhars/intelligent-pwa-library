@@ -1,15 +1,25 @@
 # Admin Guide
 
+## Status
+
+The active workflow is **developer-managed content operations**.
+
+This means:
+
+- Non-technical admin sends source PDFs and metadata by message/email/drive.
+- Developer performs OCR, review, catalog updates, and deployment via git.
+- GitHub Actions publishes the result to GitHub Pages.
+
 ## Roles
 
 | Person | What they do |
 |---|---|
-| **Admin** (non-technical) | Sends the PDF via file sharing. Fills in book metadata using the browser-based CMS panel at `/admin`. No terminal, no GitHub account required beyond a one-time collaborator invite. |
-| **Developer** | Receives the PDF, runs OCR, reviews the output, commits everything, and pushes to `main`. Notifies the admin when ready. |
+| **Admin** (non-technical) | Sends PDF + metadata (title, language, optional tags) via WhatsApp/email/Drive. Reviews published output in the app. |
+| **Developer** | Receives PDF, runs OCR, reviews/fixes index JSON, updates catalog JSON, commits and pushes to `main`. |
 
 ---
 
-## Admin workflow — adding a new book
+## Admin workflow — adding a new book (current)
 
 ### Step 1: Send the PDF to the developer
 
@@ -20,36 +30,19 @@ Share the PDF via WhatsApp, email, Google Drive, or any convenient method. Along
 - Approximate page count (visible in any PDF viewer)
 - Any known category or tag information (deity names, raga names, etc.)
 
-### Step 2: Wait for the developer to process it
+### Step 2: Wait for developer processing and review
 
-The developer runs OCR, reviews the output, and commits the PDF and its search index. They will send back:
+Developer runs OCR, reviews the output, updates catalog, and deploys. Admin validates the live app output and shares corrections.
 
-- **Book ID** (e.g. `bhajanamritam_01`)
-- **Index File Path** (e.g. `data/indices/bhajanamritam_01.json`)
-- **PDF Path** (e.g. `raw_assets/bhajanamritam_01.pdf`)
+### Step 3: Verify the published book
 
-### Step 3: Add book metadata via the admin panel
+Admin checks:
 
-1. Go to `https://username.github.io/library-manager/admin` in a browser.
-2. Click **Login with GitHub** and complete the login.
-3. Click **Book Catalog** → **catalog.json**.
-4. Click **Add item**.
-5. Fill in the form using the values the developer provided:
+- Book appears in library list
+- Search results are sensible
+- PDF opens and page jump works
 
-| Field | Where it comes from |
-|---|---|
-| Book ID | Developer provides |
-| Title | You know this |
-| Primary Language | Select from dropdown: Malayalam / Tamil / Hindi / Sanskrit |
-| All Languages in Book | Multi-select if the book has mixed languages |
-| Script | Select: Malayalam / Tamil / Devanagari |
-| Index File Path | Developer provides (e.g. `data/indices/bhajanamritam_01.json`) |
-| PDF Path | Developer provides (e.g. `raw_assets/bhajanamritam_01.pdf`) |
-| Page Count | Visible in any PDF viewer |
-
-6. Click **Save**.
-
-The CMS commits the catalog change to `main`. GitHub Actions redeploys the site automatically. The new book appears in the library within a few minutes.
+If anything is wrong, admin reports the exact song/page to developer for correction.
 
 ---
 
@@ -97,46 +90,11 @@ git commit -m "Add book: Book Title Here"
 git push origin main
 ```
 
-Do not add a `catalog.json` entry — the admin fills that in via the CMS.
+Then add/update `data/catalog.json` (top-level `books` list) in the same commit.
 
-### Step 5: Notify the admin
+### Step 5: Push and notify admin
 
-Send the admin:
-- Book ID: `your_book_id`
-- Index File Path: `data/indices/your_book_id.json`
-- PDF Path: `raw_assets/your_book_id.pdf`
-
----
-
-## Decap CMS setup (developer, one time)
-
-### 1. Create a GitHub OAuth App
-
-1. Go to **GitHub → Settings → Developer settings → OAuth Apps → New OAuth App**.
-2. Fill in:
-   - **Application name**: Library Manager Admin
-   - **Homepage URL**: `https://username.github.io/library-manager`
-   - **Authorization callback URL**: `https://api.netlify.com/auth/done`
-3. Click **Register application** and copy the **Client ID**.
-
-### 2. Configure the CMS
-
-Open `web/admin/index.html` and update:
-
-```js
-backend: {
-  name: "github",
-  repo: "username/library-manager",        // ← your GitHub username/repo
-  client_id: "YOUR_GITHUB_OAUTH_CLIENT_ID"  // ← from step above
-},
-```
-
-### 3. Add the admin as a repo collaborator
-
-Go to repo **Settings → Collaborators → Add people**.
-Enter the admin's GitHub username and set role to **Write**.
-
-The admin can now log in to the CMS panel and save catalog entries.
+After push, send admin the published URL and ask for validation.
 
 ---
 
@@ -155,7 +113,7 @@ GitHub Actions redeploys with the corrected index. No OCR re-run (PDF unchanged)
 
 ### Editing existing metadata
 
-Log in at `/admin` → **Book Catalog** → **catalog.json** → find the book → edit fields → **Save**.
+Edit `data/catalog.json` in git, then commit and push.
 
 ### Removing a book
 
@@ -166,4 +124,4 @@ git commit -m "Remove book: Book Title"
 git push origin main
 ```
 
-Then remove the catalog entry via the CMS.
+Then remove the corresponding entry from `data/catalog.json` and push.
