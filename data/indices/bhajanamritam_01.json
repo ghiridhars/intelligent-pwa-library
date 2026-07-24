@@ -1,38 +1,3953 @@
 [
   {
-    "song_id": "b01_001",
-    "title_native": "ഗണപതി",
-    "title_en": "Ganapati",
+    "song_id": "bhajanamritam_0001_ശര_രമജയ",
+    "title_native": "ശ്രീ രാമജയം",
+    "title_en": "",
     "language": "ml",
-    "category": "Ganapati",
+    "category": "",
     "page_number": 1,
-    "tags": ["ganapati", "ganesha", "mangalacharanam"]
+    "tags": []
   },
   {
-    "song_id": "b01_005",
-    "title_native": "ഹരേ രാമ",
-    "title_en": "Hare Rama",
+    "song_id": "bhajanamritam_0002_ഓ",
+    "title_native": "ഓം",
+    "title_en": "",
     "language": "ml",
-    "category": "Rama",
+    "category": "",
+    "page_number": 2,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0003_കരതതന",
+    "title_native": "കീര്‍ത്തനം",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 3,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0004_കരതന",
+    "title_native": "കീര്‍തനം",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 4,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0005_കരതന",
+    "title_native": "കീര്‍തനം",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
     "page_number": 5,
-    "tags": ["rama", "krishna", "namavali"]
+    "tags": []
   },
   {
-    "song_id": "b01_188",
-    "title_native": "അഞ്ചേൽ",
-    "title_en": "Anchel",
+    "song_id": "bhajanamritam_0006_കരതന",
+    "title_native": "കീര്‍തനം",
+    "title_en": "",
     "language": "ml",
-    "category": "Subrahmanyan",
+    "category": "",
+    "page_number": 6,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0007_കരതന_പജ_കരതന",
+    "title_native": "കീര്‍തനം പേജ്‌ കീര്‍തനം",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 7,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0008_കരതന",
+    "title_native": "കീര്‍തനം",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 8,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0009_കരതന",
+    "title_native": "കീര്‍തനം",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 9,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0010_കരതന",
+    "title_native": "കീര്‍തനം",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 10,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0011_കരതന",
+    "title_native": "കീര്‍തനം",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 11,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0012_കരതന",
+    "title_native": "കീര്‍തനം",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 12,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0013_കരതന",
+    "title_native": "കീര്‍തനം",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 13,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0014_അവതരക_ശലകങങള",
+    "title_native": "അവതാരികാ ശ്ലോകങ്ങള്‍",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 14,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0015_കല_കഷപ_ന_കരതതവയ_കഷണമയ_കഷണ_കഷണ",
+    "title_native": "കാല ക്ഷേപോ ന കര്‍ത്തവ്യഃ ക്ഷീണമായുഃ ക്ഷണേ ക്ഷണേ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 15,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0016_26",
+    "title_native": "26,",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 16,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0017_നടട",
+    "title_native": "നാട്ട",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 17,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0018_കമലധരഡന_കമലമതഡ_കമലശരതഡ_കമലജ",
+    "title_native": "കമലധരുഡുനു കമലമി(്തുഡു കമലശ്രതുഡു കമലജു",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 18,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0019_ആദദവസകലഗമ_പജത",
+    "title_native": "ആദിദേവസകലാഗമ പൂജിത",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 19,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0020_തട",
+    "title_native": "തോടി",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 20,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0021_ച_സനകദയഗജനസശയദഭദന",
+    "title_native": "ച. സനകാദിയോഗിജനസംശയദഭേദിനം",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 21,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0022_നമവല",
+    "title_native": "നാമാവലി",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 22,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0023_നമമഹനധ_ദനദര",
+    "title_native": "നാമമഹാനിധി ദാനോദാരം",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 23,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0024_രമനമ_സദധനതവചര",
+    "title_native": "രാമനാമ സിദ്ധാന്തവിചാരം",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 24,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0025_തട",
+    "title_native": "തോടി",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 25,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0026_അപ_ഭകത_മകതലക_കരണമഗചന",
+    "title_native": "അം.പ. ഭുക്തി മുക്തുലകു കാരണ്മഗുചിന്‍",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 26,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0027_ശരതസരമ_ഹരനമമന",
+    "title_native": "ശ്രുതിസാരമു ഹരിനാമമനി",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 27,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0028_ച",
+    "title_native": "ച.",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 28,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0029_ച3",
+    "title_native": "ച.3.",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 29,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0030_ശങകരഭരണ",
+    "title_native": "ശങ്കരാഭരണം",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 30,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0031_ഭരവ",
+    "title_native": "ഭൈരവി $",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 31,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0032_ശര_ബധധനദരള_ശര_അയയവള",
+    "title_native": "ശ്രീ ബോധ്ധേനദ്രാള്‍-ശ്രീ അയ്യാവാള്‍",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 32,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0033_ശഖചരക_ഗദഹത",
+    "title_native": "ശാഖച്രക ഗദാഹാതീ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 33,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0034_തച_മതധ_സകല_തരഥ",
+    "title_native": "തുംചി മാത്ധേം സകല തീര്‍ഥ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 34,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0035_ശരപരനദരദസര",
+    "title_native": "ശ്രീപുരന്ദരദാസര്‍",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 35,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0036_ശരരഘവവനദള",
+    "title_native": "ശ്രീരാഘവ്വേന്ദാള്‍",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 36,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0037_ഷണമഖപരയ",
+    "title_native": "ഷണ്‍മുഖ്പ്രിയ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 37,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0038_മലയ_മരതലല",
+    "title_native": "മലയ മാരുതാലോല",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 38,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0039_കലയന_ഉരവ_കരണയ_ഗരവ",
+    "title_native": "കലൈയിന്‍ ഉരുവേ കാരുണ്യ ഗുരുവേ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 39,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0040_ശര_ജഞനനനദ_സവമകള",
+    "title_native": "ശ്രീ ജ്ഞാനനന്ദ സ്വാമികള്‍",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 40,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0041_സനതത_ഹരനമസമരണപരവഹഠ",
+    "title_native": "സന്തതം ഹരിനാമസ്മരണപ്രവാഹാഠ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 41,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0042_നജ_ഭകത_അബകദസ_പരകരതതത",
+    "title_native": "നിജ ഭക്ത അംബികാദാസ പ്രകീര്‍ത്തിത",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 42,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0043_ശര_സഞജവ_ഭഗവതര_ധയന",
+    "title_native": "ശ്രി സഞ്ജീവി ഭാഗവതര്‍ ധ്യാനം",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 43,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0044_ട_ആശപശ_വനശന_ചതര",
+    "title_native": "ട, ആശാപാശ വിനാശന ചതുരം",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 44,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0045_കമകരധ_ദ_പരവത_ഠഡ",
+    "title_native": "കാമക്രോധ ദോ പര്‍വത ഠാഡേ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 45,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0046_നച_ഗവ_രധകഷണ_അരണമര",
+    "title_native": "നാചോ ഗാവോ രാധാകൃഷ്ണാ അരണാമീര",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 46,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0047_ന",
+    "title_native": "നാ.",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 47,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0048_ന",
+    "title_native": "നാ,",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 48,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0049_4_തലയമ_ലവനപ_നസവരഗ_നപനരഭവ",
+    "title_native": "4. തൂലയാമ ലവേനാപി നസ്വര്‍ഗം നാപുനര്‍ഭവം",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 49,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0050_തച_സധ_ഖവ",
+    "title_native": "തോചി സാധു ഖാവാ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 50,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0051_3_പളളകള_പല_കളപപര_ശതതമററ",
+    "title_native": "3. പിള്്ളൈകള്‍ പോല്‍ കളിപ്പാര്‍ ശിത്തമററ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 51,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0052_ച",
+    "title_native": "ച.",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 52,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0053_കതല_പരനതന_ഹതവനല",
+    "title_native": "കാതല്‍ പൊരുന്തിന ഹേതുവിനാല്‍",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 53,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0054_ശര_ഗതഗവനദ_മഹകവയ",
+    "title_native": "ശ്രീ ഗീതഗോവിന്ദ മഹാകാവ്യം",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 54,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0055_വച_പലലവയതയമപതധര_സനദരഭ_ശദധ_ഗര",
+    "title_native": "വാച പല്ലുവയത്യുമാപതിധരഃ സന്ദര്‍ഭ ശുദ്ധിം ഗിരാം",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 55,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0056_വദനദധരത_ജഗനനവഹത_ഭഗളമദബകരത",
+    "title_native": "വേദനുദ്ധരതേ ജഗന്നിവഹതേ ഭൂഗോളമുദ്ബിക്രതേ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 56,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0057_വസനനത_വസനത_കസമ_സകമരരവയവ",
+    "title_native": "വസന്നതേ വാസന്തീ കുസുമ സുകുമാരൈരവയവൈഃ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 57,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0058_കരഡത_കകല_കകല_കലകലരദഗരണണ_കരണണജര",
+    "title_native": "ക്രീഡത്‌ കോകില കാകലി കലികലൈരുദ്ഗീര്‍ണ്ണ കര്‍ണ്ണജരാഃ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 58,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0059_തട",
+    "title_native": "തോടി",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 59,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0060_പനപയധര_പരസരമരദദന_നരദദയ_ഹദയകവട",
+    "title_native": "പീനപയോധര പരിസരമര്‍ദ്ദന നിര്‍ദ്ദയ ഹൃദയകവാടം",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 60,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0061_7_രതസഖസമയ_രസലസയ_ദരമകളത_നയനസരജ",
+    "title_native": "7 രതിസുഖസമയ രസാലസയാ ദരമുകുളിത നയനസരോജം",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 61,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0062_ക_കരഷയത_ക_വദഷയത_സ_ചര_വരഹണ",
+    "title_native": "കിം കരിഷ്യതി കിം വദിഷ്യതി സാ ചിരം വിരഹേണ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 62,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0063_മഹ_തവദയ_ച_തമപ_തനത_ബബധര_രഗവന",
+    "title_native": "മോഹം താവദയം ച തമ്പി! തനുതാം ബിംബാധരോ രാഗവാന്‍",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 63,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0064_ട_വലഖത_രഹസ_കരഗമദന_ഭവനതമസമശരഭത",
+    "title_native": "ട വിലിഖതി രഹസി കുരംഗമദേന ഭവന്തമസമശരഭൂതം",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 64,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0065_തജത_ന_പണതലന_കപല",
+    "title_native": "തൃജതി ന പാണിതലേന കപോലം",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 65,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0066_ഉര_ശര_ഗതഗവനദ_ശഗരമഹകവയ_ശരകഷണദസ",
+    "title_native": "ഉരി ശ്രീ ഗീതഗോവിന്ദേ ശൃംഗാരമഹാകാവ്യേ ശ്രീകൃഷ്ണദാസ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 66,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0067_പലലവ_ധര_സമര_യമനതര_വസത_വന_വനമല",
+    "title_native": "പല്ലവി ധീര സമീരേ യമുനാതീരേ വസതി വനേ വനമാലീ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 67,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0068_ഉര_ശര_ഗതഗവനദ_ശഗരമഹകവയ_ശരമയ",
+    "title_native": "ഉരി ശ്രീ ഗീതഗോവിന്ദേ ശൃംഗാര്മഹാകാവ്യേ ശ്രീമയി",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 68,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0069_7_ഭവത_വളബന_വഗളതലജജ",
+    "title_native": "7 ഭവതി വിളംബിനി വിഗളിതലജ്ജാ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 69,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0070_കഥതസമയ_വ_ഹരരഹഹ_ന_യയ_വന",
+    "title_native": "കഥിതസമയേ വി ഹരിരഹഹ ന യയൌ വനം",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 70,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0071_സമരസമരരചത_വരചത_വഷ",
+    "title_native": "സ്മരസമരരോചിത വിരചിത വേഷാ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 71,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0072_കരവകകസമ_ചപല_സഷമ_രതപത_മഗകനന",
+    "title_native": "കുരവകകുസുമം ചപലാ സുഷമം രതിപതി മൃഗകാനനേ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 72,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0073_4_സഥലജലരഹ_രചകര_ചരണന",
+    "title_native": "4 സ്ഥലജലരുഹ രൂചികര ചരണേന",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 73,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0074_അനനയ_വചന_വദനതമഗര",
+    "title_native": "അനുനയ വചനം വദന്തമഗ്രേ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 74,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0075_തവദലകമലകദപ_കമപ_ലജജ_ജനയത",
+    "title_native": "ത്വദാലോകമ്ലോകാദപി കിമപി ലജ്ജാം ജനയതി",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 75,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0076_മഖര",
+    "title_native": "മുഖാരി",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 76,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0077_സപദ_മദനനല_ദഹത_മമ_മനസ",
+    "title_native": "സപദി മദനാനലോ ദഹതി മമ മാനസം",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 77,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0078_പരഹര_കതതങക_ശങക_തവയ_സതത_ഘന",
+    "title_native": "പരിഹര കൃതാതങ്കേ! ശങ്കാം ത്വയാ സതതം ഘന-",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 78,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0079_ജയദവകത_രധവരണണന_മഗദ_മധവ_നമ_ദശമസസരഗഗ",
+    "title_native": "ജയദേവകൃത്ൌെ രാധാവര്‍ണ്ണനേ മുഗ്ദ മാധവോ നാമ ദശമസ്സര്‍ഗ്ഗഃ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 79,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0080_പലലവ",
+    "title_native": "പല്ലവി",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 80,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0081_4_കസമചയ_രചതശച_വസഗഹ",
+    "title_native": "4 കുസുമചയ രചിതശുചി വാസഗേഹേ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 81,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0082_ശയമള_മദള_കളബര_മണഡലമതഗത_ഗരദകല",
+    "title_native": "ശ്യാമള മൃദൂള കളേബര മണ്ഡലമതിഗത ഗൌരദുകൂലം",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 82,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0083_ഉര_ശര_ഗതഗവനദ_ശഗരമഹകവയ_ശരകഷണദസ",
+    "title_native": "ഉരി ശ്രീ ഗീതഗോവിന്ദേ ശൃംഗാരമഹാകാവ്യേ ശ്രീകൃഷ്ണദാസ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 83,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0084_ശരജയദവ_ഭണതമദമനപദ_നഗദത_മധരപ_മദ",
+    "title_native": "ശ്രീജയദേവ ഭണിതമിദമനുപദ നിഗദിത മധുരിപു മോദം",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 84,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0085_അഥ_കനത_രതശരനത_അഭമണഡന_വഞഛയ",
+    "title_native": "അഥ കാന്തം രതിശ്രാന്തം അഭിമണ്ഡന വാഞ്ഛയാ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 85,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0086_ഘടയ_ജഘന_കഞചമഞജരസജ_കബരഭര",
+    "title_native": "ഘടയ ജഘനേ കാഞ്ചീമഞ്ജ്രസജം കബരീഭരേ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 86,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0087_ദവദശസരഗഗ",
+    "title_native": "ദ്വാദശസര്‍ഗ്ഗഃ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 87,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0088_10",
+    "title_native": "10.",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 88,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0089_19",
+    "title_native": "19.",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 89,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0090_22",
+    "title_native": "22.",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 90,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0091_30",
+    "title_native": "30,",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 91,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0092_യന_സസരജ_ജഗദഗരരദ_നഗമ_കദബമശഷ",
+    "title_native": "യേന സസര്‍ജ ജഗദ്ഗുരുരാദൌ നിഗമ കദംബമശേഷം",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 92,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0093_മര_ദസമന_നവസ_ജയരസവഹര",
+    "title_native": "മീരാ ദാസിമന നിവാസ ജയരാസവിഹാര",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 93,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0094_അണമദ_സഗണ_ഭഷണ_മണമണഡപ_സദന",
+    "title_native": "അണിമാദി സുഗുണ ഭൂഷണ മണിമണ്ഡപ സദന",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 94,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0095_ജതവരമണഡലയ",
+    "title_native": "ജിതവൈരിമണ്ഡലായ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 95,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0096_മനസജ_ശതകട_മഞജള_വഷ",
+    "title_native": "മനസിജ ശതകോടി മഞ്ജുള വേഷ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 96,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0097_രരവ",
+    "title_native": "രൈരവി",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 97,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0098_ഭവ_ജലധ_നമഗന_ദനമദധരയശ",
+    "title_native": "ഭവ ജലധി നിമഗ്നം ദീനമുദ്ധാരയേശ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 98,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0099_മഹന",
+    "title_native": "മോഹനം",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 99,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0100_3_വതസത_പദരവനദ_വശവ_വനദത_മകനദ",
+    "title_native": "3. വൃതൃസ്ത പാദാരവിന്ദ വിശ്വ വന്ദിത മുകുന്ദ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 100,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0101_കരവദയ_നരവശങക",
+    "title_native": "കുര്‍വദ്യോ നിര്‍വിശങ്കാഃ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 101,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0102_ശരഹരചരണസരജ_ഹദയ_സരജനധയഭയപ",
+    "title_native": "ശ്രീഹരിചരണസരോജ ഹൃദയ സരോജേനിധായഭൂയോപി",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 102,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0103_രഹമദ_സരപജയപദ_പതകജലവദദ",
+    "title_native": "്രഹ്മാദി സുരപൂജ്യപാദ പാതകജാലവിദേദ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 103,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0104_10",
+    "title_native": "10.",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 104,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0105_ഗപക_ജവന_സമരണ_ഗവനദ_ഗവനദ",
+    "title_native": "ഗോപികാ ജീവന സ്മരണം : ഗോവിന്ദ ഗോവിന്ദ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 105,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0106_ചമര_വയജനരത_ശരദനദ_വരകത",
+    "title_native": "ചാമര വ്യജനാ്രുതം ശരദിന്ദു വ്രക്തം",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 106,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0107_പരലഹസ_സയഗനന_പരമധരമമനത_ചല",
+    "title_native": "പരുലഹിംസ സേയഗുന്ന പരമധര്‍മ്മന്തേ ചാലു",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 107,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0108_കടധനമലതതമന",
+    "title_native": "കോടിധനമുലിത്താമനി",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 108,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0109_5",
+    "title_native": "5,",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 109,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0110_ധനയസ_ട",
+    "title_native": "ധന്യാസി ട",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 110,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0111_2_ചലകഡനച_പണഡവല_വരധ_വട_ച",
+    "title_native": "2. ചെലികാഡനുചു പാണ്ഡവുലു വിരോധി വടം ചു",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 111,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0112_ച",
+    "title_native": "ച.",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 112,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0113_സതതമ_മയ_സസരമ_നമമ_ദര",
+    "title_native": "സതതമു മായ സംസാരമു നമ്മി ദുര്‍-",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 113,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0114_10",
+    "title_native": "10.",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 114,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0115_4_പലചത_മധരമര_രമ_നനന",
+    "title_native": "4. പിലിചിതേ മധുരമുരാ രാമാ നിന്നു",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 115,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0116_ഹരദസര_ദയവബ_വലല",
+    "title_native": "ഹരിദാസര ദയവെംബോ വല്ലി",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 116,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0117_ദവജ_ശകമനയനദ_ഫല_പകവവയത",
+    "title_native": "ദ്വിജ ശുകമുനിയിന്ദ ഫല പക്വവായ്തു",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 117,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0118_ഹസള_ആധവരയ_അടവഗ_പവഗ",
+    "title_native": "ഹസുളെ ആധൃവരായ അടവിഗെ പോവാഗ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 118,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0119_ഓതധരനഥഗള_പണഡതരഗ",
+    "title_native": "ഓതിധ്രന്ഥഗള പണ്ഡിതരാഗി",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 119,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0120_ചഞചരടട_7_ആദ",
+    "title_native": "ചെഞ്ചുരുട്ടി 7 ആദ്‌",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 120,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0121_ച",
+    "title_native": "ചി,",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 121,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0122_ഗരഡഗമന_ശരപരനദരവഠലന",
+    "title_native": "ഗരുഡഗമന ശ്രീപുരന്ദരവിഠലന",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 122,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0123_സമ",
+    "title_native": "സാമാ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 123,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0124_ച_മദശഖപഞഛലങകത_ചകര",
+    "title_native": "ചി. മദശിഖിപിഞ്ഛാലങ്കൃത ചികൂരേ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 124,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0125_ച_ഹസസസഹ_ഹസസസഹ",
+    "title_native": "ചി. ഹംസസ്സോഹം ഹാസസ്സോഹാ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 125,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0126_3",
+    "title_native": "3.",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 126,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0127_ച",
+    "title_native": "ചി,",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 127,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0128_ചഞചരടട_12_ആദ",
+    "title_native": "ചെഞ്ചുരുട്ടി 12 ആദി",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 128,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0129_ഗ_ഗപജന_മനസ_ചര",
+    "title_native": "ഗോ ഗോപീജന മാനസ ചോരം",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 129,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0130_ചമ",
+    "title_native": "ചാമാ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 130,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0131_വദ_പണനതടത_തനമഖ_നകക",
+    "title_native": "വേദം പണിന്തിടത്‌ തെന്‍മുഖം നോക്കി",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 131,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0132_അരന_തരപരന_കങകദരന_പരപരനയനറ_ഭകത",
+    "title_native": "അരനേ തിരിപുരനേ കങ്കാദരനേ പരാപരനേയെന്റ്‌ (ഭക്തി",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 132,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0133_ഡ",
+    "title_native": "ഡോ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 133,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0134_നരദര_തമപര_ഗതങകള_പട",
+    "title_native": "നാരദര്‍ തുംമ്പുരു ഗീതങ്കള്‍ പാട",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 134,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0135_പഞചകഷരപപടയ_കടകകമപമ",
+    "title_native": "പഞ്ചാക്ഷരപ്പടിയും കൊടിക്കമ്പമും",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 135,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0136_ഗരരമനഹര_1_ജവ",
+    "title_native": "ഗരരിമനോഹരി 1 ജാവ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 136,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0137_കലയണ",
+    "title_native": "കല്യാണി",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 137,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0138_വരതയഗരജനതഡ",
+    "title_native": "വരത്യാഗരാജനുതുഡു",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 138,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0139_മലമന_തയഗരജ_നലന_രമ_മരതന",
+    "title_native": "മാലിമിനി ത്യാഗരാജു നേലിന രാമ മൂര്‍തിനി",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 139,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0140_രമഭകത_സരജയ",
+    "title_native": "രാമഭക്തി സാംരാജ്യ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 140,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0141_ച",
+    "title_native": "ചി,",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 141,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0142_ച",
+    "title_native": "ചി,",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 142,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0143_ച",
+    "title_native": "ചി,",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 143,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0144_നചത_പണഡരസ_ജവ_ര_ഘഡയ",
+    "title_native": "നാചത പണ്‍്ഡരീസീ ജാവൂ രേ ഘഡിയാ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 144,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0145_രഗബല_രഗബല_രഗ_രഗബല",
+    "title_native": "രംഗബോല്‍ രംഗബോല്‍ രംഗ രംഗബോല്‍",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 145,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0146_ച",
+    "title_native": "ചി,",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 146,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0147_ച",
+    "title_native": "ചി,",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 147,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0148_ചരണ_കമല_ലപടന",
+    "title_native": "ചരണ കമല ലപടാനീ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 148,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0149_ആരഭ",
+    "title_native": "ആരഭി",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 149,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0150_തട",
+    "title_native": "തോടി",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 150,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0151_സവചന_യശദവരബല",
+    "title_native": "സുവചന യശോദാവരബാല",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 151,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0152_സദ_മധര_മരള_ഗന",
+    "title_native": "സദാ മധുര മുരളീ ഗാന",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 152,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0153_ഇനത_വതമക_വനത_ഇനപ_മഴകകടടതട_വനത",
+    "title_native": "ഇന്ത വിതമാക വന്തു ഇന്‍പ മുഴുക്കാട്ടുതടി (വന്ത)",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 153,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0154_ഇറവന_യമനത_തറവന_എനകകമര",
+    "title_native": "ഇറൈവനേ യമുനൈത്‌ തുറൈവനേ എനക്കുമൊരു",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 154,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0155_10",
+    "title_native": "10.",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 155,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0156_ജല_ബലഭവ_ഖലനലല",
+    "title_native": "ജാല ബാലഭാവ ഖേലനലോല",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 156,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0157_സനദരവദനരവനദ_മ",
+    "title_native": "സുന്ദരവദനാരവിന്ദ മു",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 157,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0158_ചബലന_നളളന_ചലഗഞചദ",
+    "title_native": "ചെംബുലോനി നീള്ളനു ചിലിഗിഞ്ചേദാ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 158,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0159_പപവമചന_പങകജലചന",
+    "title_native": "പാപവിമോചന പങ്കജലോചന",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 159,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0160_ഭവജ_ഗരനക_ഭവഹരക",
+    "title_native": "ഭാവജ ഗുരുനികി ഭവഹാരികി",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 160,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0161_കയല_ഏലകകയലന",
+    "title_native": "കായലു ഏലക്കായലനു",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 161,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0162_രനതഗ_കസതര_രഗഡവ_മമമ",
+    "title_native": "രന്തിഗ കസിതുരി രംഗുഡവൈ മമ്മു",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 162,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0163_മഘബരന_തന_നയന_വശല",
+    "title_native": "മേഘബരന തനു നയന വിശാലാ ി",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 163,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0164_page_164",
+    "title_native": "്ി",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 164,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0165_തകമഹണ_തജ_ശരണ_നജഭവ",
+    "title_native": "തുകാമ്ഹണേ തുജ ശരണ നിജഭാവേ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 165,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0166_കസവച_പര_ദഷട_ബളവര",
+    "title_native": "കാസാവാചെ പരി ദൃഷ്ടി ബാളാവരി",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 166,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0167_7",
+    "title_native": "7",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 167,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0168_നമസകര",
+    "title_native": "നമസ്‌കാരം",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 168,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0169_page_169",
+    "title_native": "ി",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 169,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0170_page_170",
+    "title_native": "[[",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 170,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0171_നഗരജവരധര_നന_വഹര",
+    "title_native": "നഗരാജവരധീര നാനാ വിഹാര",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 171,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0172_page_172",
+    "title_native": "ി",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 172,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0173_യ_ജന_പരയപസത",
+    "title_native": "യേ ജനാഃ പര്യുപാസതേ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 173,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0174_വശവശ_മധവ_ഡണണഡ",
+    "title_native": "വിശ്വേശം മാധവം ഡുണണ്‍്ഡിം",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 174,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0175_സരമതരയകത_ഭജ",
+    "title_native": "സേരമിത്രിയുക്തം ഭജേ |",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 175,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0176_പരതവമഭമഖ_ലഗ",
+    "title_native": "പ്രത്വിമാഭിമുഖം ലിംഗം",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 176,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0177_മധയരജന_തരവടമരതര",
+    "title_native": "മധ്യാര്‍ജുനം (തിരുവിടൈമരുതൂര്‍)",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 177,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0178_സരവ_പഫപശനതയ",
+    "title_native": "സര്‍വ പാഫോപശാന്തയേ |",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 178,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0179_ഗണയനത_പസവ_ഭമ",
+    "title_native": "ഗണ്യന്തേ പാംസവോ ഭൂമൌ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 179,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0180_സഗനധകനതള_നഥ",
+    "title_native": "സുഗന്ധികുന്തളാ നാഥഃ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 180,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0181_ബലവ",
+    "title_native": "ബില്വം",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 181,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0182_ഛതര",
+    "title_native": "ഛത്രം",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 182,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0183_ഗപപരമ",
+    "title_native": "ഗൊപ്പരമൈ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 183,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0184_ശലകങങള",
+    "title_native": "ശ്ലോകങ്ങള്‍",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 184,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0185_മലലറ_ഹമയചലകമര_ബലന_വളള_കഞചര_മണള",
+    "title_native": "മല്ലേറു ഹിമയാചലകുമരി ബാലനേ, വള്ളി കുഞ്ചരി മണാളാ,",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 185,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0186_എലലവര_ഒര_പരവശയ_നമസകരചച_ശഷ_ഗണശര_മതലയ_ദവത",
+    "title_native": "എല്ലാവരും ഒരു പ്രാവിശ്യം നമസ്കരിച്ച ശേഷം, ഗണേശര്‍ മുതലായ ദേവതാ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 186,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0187_ദനയസ",
+    "title_native": "ദന്യാസി",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 187,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0188_3_ജഗനനഥ_വഠലഗ_മഗനഗദവപര",
+    "title_native": "3. ജഗന്നാഥ വിഠലഗേ മഗനാഗിദ്വാപര",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
     "page_number": 188,
-    "tags": ["murugan", "kuntalavarali", "adi"]
+    "tags": []
   },
   {
-    "song_id": "b01_210",
-    "title_native": "ഓം നമഃ ശിവായ",
-    "title_en": "Om Namah Shivaya",
+    "song_id": "bhajanamritam_0189_ഘനതരബഗന_മകപ_പദമല_ഘലല_ഘലലനനഞച",
+    "title_native": "ഘനതരംബുഗനു മകിപൈ പദമുലു ഘല്ലൂ ഘല്ലനനുഞ്ചി",
+    "title_en": "",
     "language": "ml",
-    "category": "Shiva",
+    "category": "",
+    "page_number": 189,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0190_നടട",
+    "title_native": "നാട്ട",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 190,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0191_വനദതഖല_ഭവന_മഹന",
+    "title_native": "വന്ദിതാഖില ഭുവന മോഹന",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 191,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0192_രഗലയ_നടനപദ",
+    "title_native": "രാഗലയ നടനപാദാ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 192,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0193_ഗരജ_നനദന",
+    "title_native": "ഗിരിജാ നന്ദന",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 193,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0194_സകഷര_സവരപണ_വലദ_പലപ_തയ",
+    "title_native": "സാക്ഷാര്‌ സ്വരൂപിണി വലിദു പാലിപ തായേ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 194,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0195_കസമമടദ_മരദധജമളളവള",
+    "title_native": "കുസുമമൂുടിദ മൂര്‍ദ്ധജമുള്ളവളെ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 195,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0196_സരസവത_ദയനധ_നഗത",
+    "title_native": "സരസ്വതി ദയൈനിധി നീഗതി",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 196,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0197_3",
+    "title_native": "3",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 197,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0198_ച_ചരചരദ_സരവഭത_വയപ",
+    "title_native": "ച ചരാചരാദി സര്‍വഭൂത വ്യാപി",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 198,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0199_ബലയ_എനകകരളപല_സരസവതയ",
+    "title_native": "ബാലയേ എനക്കരുള്‍പാലി സരസ്വതിയേ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 199,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0200_ചരടട",
+    "title_native": "ചുരുട്ടി",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 200,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0201_വല_വരദഗണ_ശല_ശവന_മകഴ",
+    "title_native": "വേലാ വരദഗുണ ശീല ശിവന്‍ മകിഴും",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 201,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0202_അസരരകലമഴതത_വടവലന_ഉന",
+    "title_native": "അസുരര്‍കുലമൊഴിത്ത വടിവേലനേ ഉന്‍",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 202,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0203_ശരവണ_ഭവ_മനശ_ഭജ_മനജ",
+    "title_native": "ി ശരവണ ഭവ മനിശം ഭജ മനുജ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 203,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0204_കദര",
+    "title_native": "കേദാരം",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 204,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0205_കരതതക_മലപല_മരനത",
+    "title_native": "കാര്‍ത്തികൈ മുലൈപാലു മരുന്തു",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 205,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0206_കടനവനധകളതവ_ഉദരന",
+    "title_native": "കോടിനവനിധികളുതവും ഉദാരനൈ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 206,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0207_അതത_മഖവരകകനയ_മതതരന_പതതരന",
+    "title_native": "അത്തി മുഖവര്‍ക്കിനിയ മിത്തിരനൈ പത്തിരനൈ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 207,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0208_കത_മരവഴ_കകമറ_അരള",
+    "title_native": "കാതു മൊരുവിഴി കാകമുറ അരുള്‍",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 208,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0209_അരയതമഴ_തനളതത_മയല_വര",
+    "title_native": "അരിയതമിഴ്‌ താനളിത്ത മയില്‍ വീരാ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 209,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0210_ഇയലശയലതതത_വഞച_കയരവഹ",
+    "title_native": "ഇയലിശൈയിലുതിത്ത വഞ്ചി കയര്‍വാഹി",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
     "page_number": 210,
-    "tags": ["shiva", "panchakshara", "dhrupad"]
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0211_10",
+    "title_native": "10",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 211,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0212_തരനറ_അണനത_കടട_ദവന_വഴ_പഴന",
+    "title_native": "തിരുനീറൈ അണിന്തു കാട്ടും ദേവന്‍ വാഴും പഴനി",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 212,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0213_സരബയ൯ദ_കരടമണ_വരനരജതപദ_ഗ",
+    "title_native": "സുരബ്യ൯ദ കിരീടമണി വരനീരാജിതപദ ഗോ-",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 213,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0214_നലകണഠന_നഖലജഗബന",
+    "title_native": "നീലകണ്ഠുനി നിഖിലജഗംബുന",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 214,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0215_കമത_ഫലവവന_ഭകതര",
+    "title_native": "കാമിത ഫലവീവന ഭകുതര",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 215,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0216_ബഗട",
+    "title_native": "ബേഗട",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 216,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0217_കഭജ_10_ആദ",
+    "title_native": "കാംഭോജി 10 ആദി",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 217,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0218_നഞചണ_ക_നന_മറകകന_ചലല_ന_നമശവയവ",
+    "title_native": "നഞ്ചണി ക നാന്‍ മറക്കിനും ചൊല്ലു നാ നമ:ശിവായവേ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 218,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0219_10",
+    "title_native": "10",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 219,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0220_1_ശങകര_ശവ_ശങകര_ശവ_ശങകര_ശവ_ശങകര",
+    "title_native": "1! ശങ്കര ശിവ ശങ്കര ശിവ ശങ്കര ശിവ ശങ്കര",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 220,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0221_പഹ_ശര_പരവത_പതവരപതര_മമവ",
+    "title_native": "പാഹി (ശ്രീ പര്‍വത പതിവരപുത്രീ (മാമവ)",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 221,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0222_കമതരതഥ_തമരസപദ_മഗ",
+    "title_native": "കാമിതാര്‍ത്ഥേ താമരസപദേ (മംഗ)",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 222,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0223_ഗരഭപര_ശരണ_നന",
+    "title_native": "ഗര്‍ഭപുരി ശുരാണി (നനു)",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 223,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0224_വയററകകടമയല_ഹദയതതല_ദയയലലത",
+    "title_native": "വയിറ്റുക്കൊടുമൈയാല്‍ ഹൃദയത്തില്‍ ദയെയില്ലാത",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 224,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0225_മടക_ശകത_ഗര_കഴമര_ജടധര",
+    "title_native": "(മുടുകു) ശക്തി ഗരി കഴമാരി ജടാധരി",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 225,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0226_എനത_മനകകവല_തവരതതരള_പരകവയ",
+    "title_native": "എനതു മനക്കവലൈ തവിര്‍ത്തരുള്‍ പുരികുവായ്‌",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 226,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0227_നജമന_നമപനന_നലയദകഷ",
+    "title_native": "ി നിജമുനൈ നമ്പിനേന്‍ നീലായദാക്ഷി",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 227,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0228_മഹഷസര_മരദധന_മഹദവ_ഭമന",
+    "title_native": "മഹിഷാസുര മര്‍ദ്ധനി മഹാദേവ ഭാമിനി",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 228,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0229_വവര_തര_ഇനന_മനമലലയ",
+    "title_native": "വോുംവരം തര ഇന്നും മനമില്ലയോ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 229,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0230_നരസഹ_ധയന",
+    "title_native": "നരസിംഹ ധ്യാനം",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 230,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0231_സലഗന_വദധക_സരപഗ_മനസ",
+    "title_native": "സുലഗൈന വൃദ്ധികി സുരപോഗു മനസാ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 231,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0232_പരമഭഗവത_പലട_വലസന_നര",
+    "title_native": "പരമഭാഗവത പാലിടി വെലസിന (നര)",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 232,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0233_കദര",
+    "title_native": "കേദാരം",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 233,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0234_ഭകത_ചനദന_ശതല_ശര_നരസഹ",
+    "title_native": "ഭക്ത ചന്ദന ശീതല ശ്രീ നരസിംഹ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 234,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0235_ജനതര_ഭയഗധര_സരസനറത",
+    "title_native": "ജനിതാരി ഭയഗാധ്ര സാരസന്റേത",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 235,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0236_2",
+    "title_native": "2",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 236,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0237_ദഷ",
+    "title_native": "ദേഷ്‌",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 237,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0238_വസനത",
+    "title_native": "വസന്ത",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 238,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0239_കനട",
+    "title_native": "കാനടാ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 239,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0240_സനന_മനഗളഗ_സധനവദ_മനതര",
+    "title_native": "സ്‌നാന മാനംഗളിഗെ സാധനവാദ മന്ത്ര",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 240,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0241_സതപത_രമചരദ_രഘപത_രഘ_രയ",
+    "title_native": "സീതാപതി രാമച്രദ രഘുപതി രഘു രായീ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 241,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0242_രഘരയച_ഗണഗന",
+    "title_native": "രഘുരായാചേോം ഗുണഗാന",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 242,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0243_1_പരമമദത_മനസ_കഹ_രമ_രമ_ര",
+    "title_native": "1. പ്രേമമുദിത മനസേ കഹോ രാമ രാമ രാം",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 243,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0244_അഞജന_ശര_ചര_ചരമരത_കഷണ",
+    "title_native": "അഞ്ജന ശ്രീ ചോര ചാരുമൂര്‍തേ കൃഷ്ണാ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 244,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0245_രരവ",
+    "title_native": "രൈരവി",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 245,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0246_തകമത_കഡവ_ചലവ",
+    "title_native": "താകാമിത കൊഡുവാ ചെലുവാ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 246,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0247_കനനസഗ_ജസനടട_മമ",
+    "title_native": "കന്നുസൈഗ ജേസിനട്ടു (മോമു)",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 247,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0248_8",
+    "title_native": "8",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 248,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0249_തട",
+    "title_native": "തോടി",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 249,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0250_ആടത_അശങകത_വ_കണണ_ഉന",
+    "title_native": "ആടാതു അശങ്കാതു വാ കണ്ണാ- ഉന്‍",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 250,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0251_പരതകലരനനന_വകത_കനവടനറ",
+    "title_native": "പ്രീതികലര്‍ന്നിനി വൈകാതെ കനിവോടെന്റേ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 251,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0252_കലകലഷ_വദര",
+    "title_native": "കലികലുഷ വിദൂരം",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 252,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0253_ലകക_നതരതസവ",
+    "title_native": "ലോകൈക നേത്രോത്സവം",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 253,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0254_ബഗ_ബഗ_ഭകഷയ_പരമനന_നന",
+    "title_native": "ബഗെ ബഗെ ഭക്ഷ്യ പരമാന്ന നാനാ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 254,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0255_അലലലല_ജനഗള_കട_മദ",
+    "title_native": "അല്ലല്ലി ജനഗള കൂട മദ്‌",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 255,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0256_പലസ_ന_എനന",
+    "title_native": "പാലിസോ നീ എന്ന",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 256,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0257_ചല_മല_തള_ജല",
+    "title_native": "ചാല മേല താള ജാല",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 257,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0258_ശര_വങകടശ_വര",
+    "title_native": "ശ്രീ വേങ്കടെശം വരം",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 258,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0259_പകജനറത_പരമപവതര",
+    "title_native": "പ്കജന്റേതം പരമപവിത്രം",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 259,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0260_നഥനമകരയ_3_ആദ",
+    "title_native": "നാഥനാമക്രിയാ 3 ആദ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 260,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0261_1_തയ_ദവകയരള_ചയ_പവരകക",
+    "title_native": "1] തൂയ ദേവകിയരുള്‍ ചേയേ പാവര്‍ക്കു",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 261,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0262_ബരയയ_വങകടരമണ_ഭകതര_നധയ",
+    "title_native": "ബാരയ്യ വെങ്കടരമണാ, ഭക്തര നിധിയേ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 262,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0263_രമത_സജന_സഘ_രഗരജ_ഭജമ",
+    "title_native": "രമിത സുജന സംഘം രംഗരാജം ഭജാമി",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 263,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0264_എനതഗതരമമ_ജനര",
+    "title_native": "എന്തിഗാതരൊമ്മേ ജനരു",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 264,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0265_10",
+    "title_native": "10",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 265,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0266_കരന_പണഡരപര_നവസ",
+    "title_native": "കരുനി പണ്ഡരപുര നിവാസ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 266,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0267_ശര",
+    "title_native": "ശ്രീ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 267,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0268_തട",
+    "title_native": "തോടി",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 268,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0269_പതര_രപദലല_നനത",
+    "title_native": "പാത്ര രൂപദല്ലി നിന്തു",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 269,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0270_ശര",
+    "title_native": "ശ്രീ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 270,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0271_ലലത",
+    "title_native": "ലലിതാ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 271,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0272_നഖല_ജഗനനഥന_മരപല_൮ളര_തര",
+    "title_native": "നിഖില ജഗന്നാഥന്‍ മാര്‍പില്‍ ൮ളര്‍ തിരു",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 272,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0273_തരലകയ_സമപരകലയവതരണ",
+    "title_native": "ത്രൈലോക്യ സമ്പര്കലയാവതീര്‍ണാ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 273,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0274_ത_രധക_ചരണ_രണമനസമരമ",
+    "title_native": "തം രാധികാ ചരണ രേണുമനുസ്മരാമി",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 274,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0275_മ_രധ_ക_സഗ_നക",
+    "title_native": "മൈം രാധാ കീ സംഗ നീകോ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 275,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0276_ഭമസനന_കനതതനയന",
+    "title_native": "ഭീമസേനനെ കുന്തിതനയനെ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 276,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0277_ഖരളകണഡന_കണന_ജഗദളഗ_പരവണന_എ",
+    "title_native": "ഖരളകണ്ഡന കാണനോ ജഗദൊളഗെ പ്രവീണനോ എ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 277,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0278_ആഭഗ",
+    "title_native": "ആഭോഗി",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 278,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0279_ആഞജനയ_പരമനനദമരതത",
+    "title_native": "ആഞ്ജനേയ പരമാനന്ദമൂര്‍ത്തേ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 279,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0280_വരമ_ഭഗവതവരണയ_വരദ_തയഗരജനത",
+    "title_native": "വരമ ഭാഗവതവരേണ്യ, വരദ ത്യാഗരാജനുത",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 280,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0281_വഠല_പനഥ_പരതസഖയനന_വനദ",
+    "title_native": "വിഠല പന്ഥം പ്രതിസുഖയന്നം (വന്ദേ)",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 281,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0282_വ_ശരരമദത_നമമ",
+    "title_native": "വ. ശ്രീരാമദൂതം നമാമി",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 282,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0283_ജനക_ജവന_സമരണ_ജയ_ജയ_രമ_രമ",
+    "title_native": "ജാനകി ജീവന സ്മരണം - ജയ ജയ രാമ രാമ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 283,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0284_വ_ഭജ_വനത_തനയ_സദ_മന",
+    "title_native": "വ ഭജ വിനതാ തനയം സദാ മന",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 284,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0285_വകച_കമല_തണഡ_വഗത_മഹ_കണഡ",
+    "title_native": "വികച കമല തുണ്ഡ വിഗത മോഹ കാണ്ഡ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 285,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0286_വനതസത_രര_ന_വനത_ക_കനര",
+    "title_native": "വിനതാസുത രാരാ നാ, വിനുതി കൈ കൊനരാ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 286,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0287_ശരണ_ശരണ_പനനയയപപ_എനറ_കവയ_ദരവയ",
+    "title_native": "ശരണം ശരണം പൊന്നയ്യപ്പാ എന്റ കുവിയേ ദ്രവ്യ)",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 287,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0288_അയയപപന_ഉനപരമ_യരറ_മശയവന",
+    "title_native": "അയ്യപ്പനേ ഉന്‍പെരുമൈ യാരുറൈ മശെയ്വേന്‍",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 288,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0289_അടയരലലല_ഒഴയ_ആനനദമ_കവയ",
+    "title_native": "അടിയാരല്ലല്‍ ഒഴിയ ആനന്ദമേ കുവിയ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 289,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0290_കലയണ_ശലനലയ_കപ_നലയ",
+    "title_native": "കല്യാണ ശൈലനിലയ കൃപാ നിലയ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 290,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0291_സനധഭരവ_8",
+    "title_native": "സിന്ധുഭൈരവി 8",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 291,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0292_മധയമവത_10",
+    "title_native": "മധ്യമാവതി 10",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 292,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0293_ശരതമനഹര_ഗതലലസ",
+    "title_native": "ശ്രുതിമനോഹരം ഗീതലാലസം",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 293,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0294_പരവകലയണ_1_ആദ",
+    "title_native": "പൂര്‍വികല്യാണി 1 ആദി",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 294,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0295_ഈദകനക_സകരതതനകര",
+    "title_native": "ഈദൃകനേക സുകീര്‍ത്തനകാരി",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 295,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0296_മശരകപ_ടട_ആദ",
+    "title_native": "മിശ്രകാപി ടട ആദി",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 296,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0297_കപ",
+    "title_native": "കാപി",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 297,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0298_രശരരണമഞജല",
+    "title_native": "രീശ്ര്രാണാമാഞ്ജലിം",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 298,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0299_മണഡത_ഹദയ_പരചണഡ_തപധന",
+    "title_native": "മണ്ഡിത ഹൃദയ പ്രചണ്ഡ തപോധനം",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 299,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0300_ഗന_നടദ_വനദ_വര",
+    "title_native": "ഗാന നടാദി വിനോദം വര-",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 300,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0301_വദയ_രപണ_സരസവത",
+    "title_native": "വിദ്യാ രൂപിണി സരസ്വതി",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 301,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0302_ശലപണ_ശവന_ചകരപണ_വഷണ",
+    "title_native": "ശൂലപാണി ശിവന്‍ ചക്രപാണി വിഷ്ണു",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 302,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0303_ഗരവണ_കരതതന_ഹനദസതന_മഹരഷടര_ആനര_കനനട",
+    "title_native": "(ഗീര്‍വാണ കീര്‍ത്തനം, ഹിന്ദുസ്താനി, മഹാരഷ്ട്രം, ആന്്രം, കന്നടം,",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 303,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0304_ദവയനമ_സങകരതതന",
+    "title_native": "ദിവ്യനാമ സങ്കീര്‍ത്തനം",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 304,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0305_10",
+    "title_native": "10",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 305,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0306_ഹയയ_വജയ_സഹയ_ബഗ_ബര",
+    "title_native": "ി ഹയ്യാ വിജയ സഹായ ബേഗ ബാരോ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 306,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0307_ദഷ",
+    "title_native": "ദേഷ്‌",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 307,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0308_ദപരപദകഷണതതന_പരശസകകനന_ചല_ശലകങകള",
+    "title_native": "ദീപ്ര്പദക്ഷിണത്തിനേ പ്രശംസിക്കുന്ന ചില ശ്ലോകങ്കള്‍",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 308,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0309_വകപത_വരണ_വസഷഠ_പരശര",
+    "title_native": "വാക്പതി വരുണ വസിഷ്ഠ പരാശര",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 309,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0310_ഗര_ഭജനച_മഹമ_നകള",
+    "title_native": "ഗുരു ഭജനാചാ മഹിമാ നകളേ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 310,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0311_എലലര_നമസകരകകണ",
+    "title_native": "(എല്ലാരും നമസ്കരിക്കണം)",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 311,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0312_ഭദരദരവസര_ദവയ_നമ_സങകരതന",
+    "title_native": "ഭദ്രാദ്രിവാസര്‍ ദിവ്യ നാമ സങ്കീര്‍തനം",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 312,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0313_യ_ദവ_ദവ_ഭജ_ദവരജ_ഭ",
+    "title_native": "യ ദേവ ദേവം ഭജേ ദേവരാജ ഭേ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 313,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0314_ഘടജതമനഗയ_ഘന_നലകയ",
+    "title_native": "ഘടജാതമുനിഗേയ ഘന നീലകായ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 314,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0315_19",
+    "title_native": "19",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 315,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0316_ഹരലങകത_ഹരഭഷണ",
+    "title_native": "ഹീരാലങ്കൃത ഹാരഭൂഷണ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 316,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0317_page_317",
+    "title_native": "ിി",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 317,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0318_ഗവനദ_ഗവനദ_ഗവനദ_ഗവനദ",
+    "title_native": "ഗോവിന്ദ ഗോവിന്ദ ഗോവിന്ദ ഗോവിന്ദ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 318,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0319_നനദതമജന൯ദ_സനദഹ_യദബനദ",
+    "title_native": "നന്ദാത്മജാന൯ദ സന്ദോഹ യദുബുന്ദ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 319,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0320_14_രപജനഭമ_രപജത_കമ",
+    "title_native": "14 രിപൂജനഭീമ രൂപജിത കാമ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 320,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0321_അഭജഭവനത_അബധ_ശയന_അഗധ_ബധ_രമ",
+    "title_native": "അംഭൂജഭവനുത അംബുധി ശയന അഗാധ ബോധ രാമ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 321,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0322_പഞഛശഖര_ഭകത_സഞഛനനഭവ_ത",
+    "title_native": "പിഞ്ഛ്ശേഖര ഭക്തി സഞ്ഛിന്നഭവ താ-",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 322,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0323_10",
+    "title_native": "10",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 323,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0324_ഗപല_കഷണ_ഹര",
+    "title_native": "ഗോപാല കൃഷ്ണ ഹരേ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 324,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0325_പലവപദയഗ_മലല_വമരദന",
+    "title_native": "പ്ലുവപദയുഗ മല്ല വിമര്‍ദന",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 325,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0326_തട",
+    "title_native": "തോടി",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 326,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0327_10",
+    "title_native": "10",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 327,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0328_ധര_വരധ_ഗഭര_സകലലക",
+    "title_native": "ധീര വാരിധി ഗംഭീര സകലലോകാ-",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 328,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0329_വശവകരതരശ_വദദത_ജവപശ",
+    "title_native": "വിശ്വകര്‍തരീശ വിദ്ദുത ജീവപാശൈ:",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 329,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0330_20",
+    "title_native": "20",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 330,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0331_33",
+    "title_native": "33",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 331,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0332_പനനഗവരള_7_തസഎക",
+    "title_native": "പുന്നാഗവരളി 7 തിസഎകാ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 332,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0333_13",
+    "title_native": "13",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 333,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0334_സധ_സധ_കതമഹ_കഷണ_കഷണ_ലക",
+    "title_native": "സാധു സാധു കൃത്മിഹ കൃഷ്ണ കൃഷ്ണ ലോക",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 334,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0335_ചരശഖമണ_ആഗമന_ഗയത",
+    "title_native": "ചോരശിഖാമണേ; ആഗമനം ഗീയതേ)",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 335,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0336_1_അപഹത_ബഹതര_നവനത",
+    "title_native": "1 അപഹൃത ബഹുതര നവനീതം",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 336,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0337_കണഠപകണഠശഭ_കസതഭ_കഷണ",
+    "title_native": "കണ്ഠോപകണ്ഠശോഭി കൌസ്തുഭ കൃഷ്ണം",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 337,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0338_മഖര",
+    "title_native": "മുഖാരി",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 338,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0339_തട",
+    "title_native": "തോടി",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 339,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0340_നലബര",
+    "title_native": "നീലാംബരി",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 340,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0341_പരനദരദ_വനദയ_പദകമല",
+    "title_native": "പുരന്ദരാദി വന്ദ്യ പദകമല",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 341,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0342_കമസ",
+    "title_native": "കമാസ്‌",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 342,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0343_കപ",
+    "title_native": "കാപി",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 343,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0344_6_അവനജപത_സവ_മനമ_മനമ",
+    "title_native": "6 അവനിജാപതി സേവ മാനമു മാനമു",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 344,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0345_ന_നമമ_ദലത",
+    "title_native": "നീ നാമമേ ദലതു",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 345,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0346_കപ",
+    "title_native": "കാപി",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 346,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0347_കമസ",
+    "title_native": "കമാസ്‌",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 347,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0348_നടകരഞച_10",
+    "title_native": "നാടകുര്‍ഞ്ചി 10",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 348,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0349_വനരഹ_നയന_ഘനദഹശയന",
+    "title_native": "വനരുഹ നയനം ഘനദഹിശയനം",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 349,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0350_പഡ_പഗളവന_പരമപരഷ_ഹരയ",
+    "title_native": "പാഡി പൊഗളുവേനോ പരമപുരുഷ ഹരിയേ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 350,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0351_കപ",
+    "title_native": "കാപി",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 351,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0352_മല_വഠല_കളഗ_വഠല",
+    "title_native": "മേലേ വിഠല കെളഗേ വിഠല",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 352,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0353_പനതവരള",
+    "title_native": "പന്തുവരാളി",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 353,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0354_കലയഗദല_ഹരനമവനനദര",
+    "title_native": "കലിയുഗദലി ഹരിനാമവനെനദരെ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 354,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0355_യഗയജഞ_മഡലക",
+    "title_native": "യാഗയജ്ഞ മാഡലേകെ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 355,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0356_നന_നനനദ_എബ_നരകതളഗ_ബതത",
+    "title_native": "നാനു നന്നദു എംബ നരകതൊളഗെ ബിത്തു",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 356,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0357_ബര_നമമ_മനഗ_ഗപലകഷണ",
+    "title_native": "ബാരോ നമ്മ മനഗെ ഗോപാലകൃഷ്ണ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 357,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0358_യക_ബനദയ_ജവ_യക_ബനദ_ഈ",
+    "title_native": "യാകേ ബന്ദയോ ജീവ, യാകേ ബന്ദീ ഈ-",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 358,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0359_നഹ_യഗ_സധനക_ഹക_ജരരത",
+    "title_native": "നഹീ യോഗ സാധനകീ ഹംകോ ജരുരത",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 359,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0360_പണരമധര_പദ_മധര",
+    "title_native": "പാണിര്‍മധുരോ പാദ മധുര",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 360,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0361_കപ",
+    "title_native": "കാപി",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 361,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0362_12",
+    "title_native": "12",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 362,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0363_20",
+    "title_native": "20",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 363,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0364_യദകലകബത_3",
+    "title_native": "യദുകുലകാംബോതി 3",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 364,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0365_രമ_ന_കവര_ജഡ_രമ_കരഗ_ജഡ",
+    "title_native": "രാമ നീ കെവരു ജോഡു രാമ ക്രീഗ ജൂഡു",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 365,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0366_8_ദഹരബ_കരഗ_കരമന_ബടട_ജനക",
+    "title_native": "8 ദഹരംബു കരുഗ കരമുനു ബട്ട ജാനകി",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 366,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0367_സഹന",
+    "title_native": "സഹാന",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 367,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0368_13",
+    "title_native": "13",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 368,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0369_നക_മനസചച_നന_രമ",
+    "title_native": "നീകേ മനസിച്ചി നേനു രാമ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 369,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0370_15",
+    "title_native": "15",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 370,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0371_നജസവക_കലലതരവ",
+    "title_native": "നിജസേവക കല്ലതരവേ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 371,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0372_10",
+    "title_native": "10",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 372,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0373_page_373",
+    "title_native": "ിി",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 373,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0374_വജനഹനതയല_കഷണ_വശവമഗള",
+    "title_native": "വൃജിനഹന്ത്്യലം കൃഷ്ണ വിശ്വമംഗളം",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 374,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0375_നനദകമര_നവനത_ചര",
+    "title_native": "നന്ദകുമാരാ നവനീത ചോരാ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 375,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0376_ബനദ_നനത_കണണ_മനദ",
+    "title_native": "ബന്ദു നിന്താ കണ്ണാ മുന്ദേ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 376,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0377_അഗനമഗനമനതര_മധവ",
+    "title_native": "അംഗനാമംഗനാമന്തരേ മാധവോ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 377,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0378_ശത_ശത_വട_യമനയ_തട",
+    "title_native": "ശീത ശീതേ വടേ യാമുനീയേ തടേ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 378,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0379_തതതത_തത_സഘര_ഗത",
+    "title_native": "തത്തത തത സുഘര ഗാത",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 379,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0380_നനദകമരന_നടടവയ_നഞച",
+    "title_native": "നന്ദകുമാരനൈ നാടിടുവായ്‌ നെഞ്ചേ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 380,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0381_ചലരന_പരയരരച_ചര_മരകന",
+    "title_native": "ചീലാരന പെരിയോര്രച്‌ ചേരും മുരുകന്‍",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 381,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0382_page_382",
+    "title_native": "്)",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 382,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0383_കശവ_സവത_കരത_ശവ",
+    "title_native": "കേശവ സേവിത കീര്‍തി ശിവ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 383,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0384_എലല_സദധ_എനറണണട_തണഡവകകന",
+    "title_native": "എല്ലാം സിദ്ധി എന്റെണ്ണടാ താണ്ഡവക്കോനേ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 384,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0385_വറയടടക_കകതനറട_പബ",
+    "title_native": "വറൈയോട്ടുക്‌ കാകാതെന്റാടു പാംബേ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 385,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0386_4_തനന_അറനത_തലവനച_ചരനതരകക",
+    "title_native": "4 തന്നൈ അറിന്തു തലൈവനൈച്‌ ചേര്‍ന്താര്‍ക്കു",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 386,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0387_മഹരരഷട_അദഭഗങങള",
+    "title_native": "മഹാരരഷ്ട അദഭഗംങ്ങള്‍",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 387,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0388_ആണ_തതധ_പണഡര_നഥ",
+    "title_native": "ആണ തുത്ധീ പണ്ഡരീ നാഥാ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 388,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0389_ഖനഹപരര_രഖ_ആത",
+    "title_native": "ഖാന്‍ഹോപാര്രാ രാഖീ ആതാം",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 389,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0390_കപ",
+    "title_native": "കാപി",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 390,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0391_കലസവസ_കനകസദശ",
+    "title_native": "കൈലാസവാസ കനകസദേശ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 391,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0392_പരമനനദ_പരവരഗന",
+    "title_native": "പരമാനന്ദ പരവീരഗ്ന",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 392,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0393_പണഡരഗ_പരർതതന_പജ",
+    "title_native": "പാണ്ഡുരംഗ പ്രാർത്തന - പൂജ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 393,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0394_മഹദവത_കരതനത_ഹര_ഹര_മഹദവ",
+    "title_native": "മഹാദേവേതി കീര്‍തനാത്‌ ഹര ഹര മഹാദേവ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 394,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0395_അഖലണഡകടബരഹമണഡനയക",
+    "title_native": "അഖിലാണ്ഡകോടിബ്രഹ്മാണ്ഡനായക",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 395,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0396_ഗയനദ_മദതനരഗ_ഹദയ",
+    "title_native": "ഗായന്ദോ മുദിതാനുരാഗ ഹൃദയാ:",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 396,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0397_10",
+    "title_native": "10",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 397,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0398_വസനതന",
+    "title_native": "വസന്തനാ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 398,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0399_ഹരചരണ_സമതസര",
+    "title_native": "ഹരിചരണ സ്മൃതിസാരം",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 399,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0400_പരരതഥന_അഭഗ",
+    "title_native": "പ്രാര്‍ത്ഥനാ അഭംഗം",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 400,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0401_തതധ_മരത_കനദള_ഹദയനത",
+    "title_native": "തുത്ധേ മൂരുതി കൊന്ദളി ഹൃദയാന്ത",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 401,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0402_6",
+    "title_native": "6",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 402,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0403_9",
+    "title_native": "9",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 403,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0404_302",
+    "title_native": "302",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 404,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0405_ഡലതസവ",
+    "title_native": "ഡോലോത്സവം",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 405,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0406_വ_ആരഗമപവ_പലരഗമപവ",
+    "title_native": "വ ആരഗിമ്പവേ പാലാരഗിമ്പവേ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 406,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0407_മണകദ_ഹരവണദ",
+    "title_native": "മാണികൃദ ഹരിവാണദി",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 407,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0408_ഇനദരദ_ദവതല_എദരഞച_ഗവല",
+    "title_native": "ഇന്ദ്രാദി ദേവതുലു എദിരിഞ്ചി ഗോവുല",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 408,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0409_നലഗ_ബടടദന_പദമലയവയയ",
+    "title_native": "നലുഗു ബെട്ടെദനു പദമൂലീയവയ്യാ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 409,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0410_സദരകഷണ_ശഖ_ചരര_ഹസത",
+    "title_native": "സാദുരക്ഷണ ശാഖ ച്രര ഹസ്ത",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 410,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0411_ചമ",
+    "title_native": "ചാമാ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 411,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0412_ബലര_വനര_സദ_ഭകത_സമനയഡ",
+    "title_native": "ബാലരോ വിനരേ സദ്‌ ഭക്ത സമാന്യുഡേ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 412,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0413_നവരജ",
+    "title_native": "നവരോജ്‌",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 413,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0414_കരകലതശരചപ_ഖരശരഹരണ",
+    "title_native": "കരകലിതശരചാപ ഖരശിരോഹരണ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 414,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0415_കമ_കമരപനത_രര_ലല",
+    "title_native": "കാമ കാമരിപുനുത രാരാ (ലാല",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 415,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0416_10",
+    "title_native": "10",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 416,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0417_രഗ_ശര_പഗ_ജ_ജ_പരമതമ",
+    "title_native": "രംഗ ശ്രീ പാംഗ ജോ ജോ പരമാത്മ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 417,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0418_ദദദകനന_സതതഡ_തരവസ_മരകഞച",
+    "title_native": "ദിദ്ദുകൊന്ന സതിതോഡ തിരുവിസ മാരകിഞ്ചി",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 418,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0419_ഭഗവന_ശയന_രചചന",
+    "title_native": "ഭഗവാനു ശയന രച്ചനം",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 419,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0420_ഗണനഥന_മരകക_ഗഭരയമന_രമ",
+    "title_native": "ഗണനാഥുനി മ്രൊക്കി ഗാംഭീര്യമുനു രാമ-",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 420,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0421_നഗഹ_നധന_നസനദര_വ",
+    "title_native": "നഗൃഹം നധനം നസുന്ദരീം വാ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 421,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0422_ന",
+    "title_native": "നാ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 422,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0423_ര",
+    "title_native": "രാ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 423,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0424_ഭഗവന_യഗനദരയല_എനന_ഭവതതട",
+    "title_native": "ഭഗവാന്‍ യോഗനിദ്രയില്‍ എന്ന ഭാവത്തോടെ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 424,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0425_വലവ_ദരയഞച_പഗല_യരഗഞച",
+    "title_native": "വലുവ ദരിയെഞ്ചി പൊംഗലി യാരഗിഞ്ചി",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 425,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0426_ശഷ_ചലലനന",
+    "title_native": "ശേഷം ചെല്ലുന്നു.",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 426,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0427_ശരവസദവക_രധസമര_ശഷശയന",
+    "title_native": "ശ്രീവാസുദേവകുഃ രാധാസമേരഃ ശേഷശയനേ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 427,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0428_രകഷണ",
+    "title_native": "രക്ഷ്ണ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 428,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0429_ഭപള",
+    "title_native": "ഭൂപാളം",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 429,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0430_2_അചചക_ലലയയ_ആരതരകഷക_ശര",
+    "title_native": "2 അച്ചിക ലേലയ്യ ആര്‍തരക്ഷക ശ്രീ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 430,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0431_ഭബള",
+    "title_native": "ഭൂബാളം",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 431,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0432_പദമമല_വകസഞച_ഭമരമല_പമരസ",
+    "title_native": "പദ്മമുലു വികസിഞ്ചേ ഭമരമുലു പൈമൊരസേ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 432,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0433_പരനദര_വഠലന_യള",
+    "title_native": "പുരന്ദര വിഠലന യേളേ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 433,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0434_ബലഹര_1",
+    "title_native": "ബിലഹരി 1",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 434,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0435_ചരടട",
+    "title_native": "ചുരുട്ടി",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 435,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0436_ചര_ചരണഥളനദ_ചലവ_ഗഗയ_പഡദ",
+    "title_native": "ചാരു ചരണഥളിന്ദ ചെലുവ ഗംഗെയ പഡെദ",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 436,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0437_ചരടട",
+    "title_native": "ചുരുട്ടി",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 437,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0438_10",
+    "title_native": "10",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 438,
+    "tags": []
+  },
+  {
+    "song_id": "bhajanamritam_0439_18",
+    "title_native": "18",
+    "title_en": "",
+    "language": "ml",
+    "category": "",
+    "page_number": 439,
+    "tags": []
   }
 ]
