@@ -117,8 +117,7 @@ jobs:
 
       - name: Build Flutter Web
         run: |
-          # Replace 'library-manager' with your actual GitHub repository name
-          flutter build web --base-href /library-manager/ --release
+          flutter build web --base-href /intelligent-pwa-library/ --release
 
       # ── 5. Assemble deployment artefact ─────────────────────────────────────
       - name: Assemble dist/

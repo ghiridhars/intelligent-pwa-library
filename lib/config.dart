@@ -10,7 +10,7 @@ class AppConfig {
   /// Your GitHub Pages site URL — no trailing slash.
   /// Used by mobile builds to fetch catalog and book index JSON.
   static const String githubPagesUrl =
-      'https://username.github.io/library-manager';
+      'https://ghiridhars.github.io/intelligent-pwa-library';
 
   /// Resolves a path (e.g. "data/catalog.json") to a full URL.
   ///
