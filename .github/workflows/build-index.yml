@@ -13,7 +13,11 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     permissions:
-      contents: write   # needed to push to gh-pages branch
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
 
     steps:
       # ── 1. Checkout ─────────────────────────────────────────────────────────
@@ -110,8 +114,10 @@ jobs:
       - name: Set up Flutter
         uses: subosito/flutter-action@v2
         with:
-          channel: beta # or dev, with explicit version if needed
-          flutter-version: 3.47.0-0.1.pre
+          channel: stable
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
 
       - name: Install Flutter dependencies
         run: flutter pub get
@@ -134,11 +140,12 @@ jobs:
           # underscore-prefixed files without silently dropping them
           touch dist/.nojekyll
 
-      # ── 6. Deploy to gh-pages branch ────────────────────────────────────────
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
+      # ── 6. Upload and deploy to GitHub Pages ───────────────────────────────
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
-          # Keep the admin/ folder from web/admin/ — it's already in build/web/
-          # because Flutter copies the web/ directory into the build output.
+          path: ./dist
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
