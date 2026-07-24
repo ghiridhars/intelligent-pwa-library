@@ -75,8 +75,16 @@ jobs:
           import json, subprocess, sys
           from pathlib import Path
 
-          with open("data/catalog.json", encoding="utf-8") as f:
-              catalog = json.load(f)
+            with open("data/catalog.json", encoding="utf-8") as f:
+              decoded = json.load(f)
+
+            if isinstance(decoded, list):
+              catalog = decoded
+            elif isinstance(decoded, dict) and isinstance(decoded.get("books"), list):
+              catalog = decoded["books"]
+            else:
+              print("ERROR: Invalid data/catalog.json format. Expected list or {\"books\": [...]}", file=sys.stderr)
+              sys.exit(1)
 
           # Build a map of asset_url -> catalog entry
           asset_map = {entry["asset_url"]: entry for entry in catalog}

@@ -29,11 +29,22 @@ class CatalogService {
       );
     }
 
-    final List<dynamic> raw = jsonDecode(response.body) as List<dynamic>;
-    _catalog = raw
-        .cast<Map<String, dynamic>>()
-        .map(Book.fromJson)
-        .toList();
+    final dynamic decoded = jsonDecode(response.body);
+    List<dynamic> raw;
+
+    if (decoded is List<dynamic>) {
+      // Backward compatibility with older catalog.json shape.
+      raw = decoded;
+    } else if (decoded is Map<String, dynamic> && decoded['books'] is List<dynamic>) {
+      // CMS-friendly shape: { "books": [ ... ] }
+      raw = decoded['books'] as List<dynamic>;
+    } else {
+      throw Exception(
+        'Invalid catalog format. Expected a list or an object with a "books" list.',
+      );
+    }
+
+    _catalog = raw.cast<Map<String, dynamic>>().map(Book.fromJson).toList();
 
     return _catalog!;
   }

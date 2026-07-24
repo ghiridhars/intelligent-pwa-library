@@ -1,13 +1,15 @@
-[
-  {
-    "book_id": "bhajanamritam_01",
-    "title": "Bhajanamritam Vol. 1",
-    "primary_language": "ml",
-    "languages": ["ml"],
-    "script": "malayalam",
-    "type": "pdf",
-    "index_file": "data/indices/bhajanamritam_01.json",
-    "asset_url": "raw_assets/bhajanamritam_01.pdf",
-    "page_count": 425
-  }
-]
+{
+  "books": [
+    {
+      "book_id": "bhajanamritam_01",
+      "title": "Bhajanamritam Vol. 1",
+      "primary_language": "ml",
+      "languages": ["ml"],
+      "script": "malayalam",
+      "type": "pdf",
+      "index_file": "data/indices/bhajanamritam_01.json",
+      "asset_url": "raw_assets/bhajanamritam_01.pdf",
+      "page_count": 425
+    }
+  ]
+}
