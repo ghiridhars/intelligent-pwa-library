@@ -18,6 +18,14 @@ class _BookScreenState extends State<BookScreen> {
   List<Song> _allSongs = [];
   List<Song> _filtered = [];
   final _searchController = TextEditingController();
+  DateTime? _lastFetchedAt;
+
+  String _formatTime(DateTime value) {
+    final hh = value.hour.toString().padLeft(2, '0');
+    final mm = value.minute.toString().padLeft(2, '0');
+    final ss = value.second.toString().padLeft(2, '0');
+    return '$hh:$mm:$ss';
+  }
 
   @override
   void didChangeDependencies() {
@@ -26,8 +34,16 @@ class _BookScreenState extends State<BookScreen> {
         .catalog
         .fetchBookIndex(widget.book)
         .then((songs) {
-      _allSongs = songs;
-      _filtered = songs;
+      if (mounted) {
+        setState(() {
+          _allSongs = songs;
+          _filtered = songs;
+          _lastFetchedAt = DateTime.now();
+        });
+      } else {
+        _allSongs = songs;
+        _filtered = songs;
+      }
       return songs;
     });
   }
@@ -42,10 +58,11 @@ class _BookScreenState extends State<BookScreen> {
     setState(() {
       _indexFuture = AppServices.of(context)
           .catalog
-          .fetchBookIndex(widget.book, forceRefresh: true)
+          .fetchBookIndex(widget.book)
           .then((songs) {
         _allSongs = songs;
         _filtered = songs;
+        _lastFetchedAt = DateTime.now();
         return songs;
       });
     });
@@ -99,6 +116,20 @@ class _BookScreenState extends State<BookScreen> {
 
           return Column(
             children: [
+              if (_lastFetchedAt != null)
+                Padding(
+                  padding: const EdgeInsets.fromLTRB(16, 10, 16, 0),
+                  child: Align(
+                    alignment: Alignment.centerLeft,
+                    child: Text(
+                      'Last fetched at ${_formatTime(_lastFetchedAt!)}',
+                      style: TextStyle(
+                        fontSize: 12,
+                        color: Theme.of(context).colorScheme.outline,
+                      ),
+                    ),
+                  ),
+                ),
               _SearchBar(
                 controller: _searchController,
                 onChanged: _onSearchChanged,

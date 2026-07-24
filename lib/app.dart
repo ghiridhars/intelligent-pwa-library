@@ -5,7 +5,6 @@ import 'screens/library_screen.dart';
 import 'screens/book_screen.dart';
 import 'screens/pdf_screen.dart';
 import 'services/catalog_service.dart';
-import 'services/cache_service.dart';
 import 'services/search_service.dart';
 
 /// Makes [CatalogService] and [SearchService] available to the whole widget tree.
@@ -60,7 +59,7 @@ class LibraryApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return AppServices(
-      catalog: CatalogService(cache: CacheService()),
+      catalog: CatalogService(),
       search: SearchService(),
       child: MaterialApp.router(
         title: 'Library Manager',

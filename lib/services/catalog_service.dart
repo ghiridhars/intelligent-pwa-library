@@ -3,17 +3,13 @@ import 'package:http/http.dart' as http;
 import '../config.dart';
 import '../models/book.dart';
 import '../models/song.dart';
-import 'cache_service.dart';
 
-/// Fetches and caches the book catalog and per-book song indices.
+/// Fetches the book catalog and per-book song indices.
 class CatalogService {
-  final CacheService _cache;
-
   // In-memory catalog — fetched once per app session.
   List<Book>? _catalog;
 
-  CatalogService({CacheService? cache})
-      : _cache = cache ?? CacheService();
+  CatalogService();
 
   /// Returns the full book catalog. Fetched fresh on first call per session;
   /// subsequent calls return the in-memory copy.
@@ -51,17 +47,8 @@ class CatalogService {
 
   /// Returns the song index for [book].
   ///
-  /// Checks the persistent Hive cache first (unless [forceRefresh] is true).
-  /// Falls back to an HTTP fetch and writes the result to cache for offline
-  /// use on subsequent opens.
-  Future<List<Song>> fetchBookIndex(Book book, {bool forceRefresh = false}) async {
-    // Check offline cache first unless a network refresh is explicitly requested.
-    if (!forceRefresh) {
-      final cached = await _cache.loadBookIndex(book.bookId);
-      if (cached != null) return cached;
-    }
-
-    // Fetch from network
+  /// Always fetches from network so updates to JSON are immediately visible.
+  Future<List<Song>> fetchBookIndex(Book book) async {
     final uri = AppConfig.resolveUrl(book.indexFile);
     final response = await http.get(uri);
 
@@ -76,9 +63,6 @@ class CatalogService {
         .cast<Map<String, dynamic>>()
         .map(Song.fromJson)
         .toList();
-
-    // Persist to cache for offline access
-    await _cache.saveBookIndex(book.bookId, response.body);
 
     return songs;
   }
