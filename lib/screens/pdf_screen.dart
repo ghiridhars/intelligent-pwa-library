@@ -28,13 +28,14 @@ class PdfScreen extends StatefulWidget {
 class _PdfScreenState extends State<PdfScreen> {
   late PdfController _controller;
   int _currentPage = 1;
+  late String _pdfUrl;
 
   @override
   void initState() {
     super.initState();
-    final pdfUrl = AppConfig.resolveUrl(widget.book.assetUrl).toString();
+    _pdfUrl = AppConfig.resolveUrl(widget.book.assetUrl).toString();
     _controller = PdfController(
-      document: PdfDocument.openData(_fetchPdfBytes(pdfUrl)),
+      document: PdfDocument.openData(_fetchPdfBytes(_pdfUrl)),
       initialPage: widget.initialPage,
     );
     _currentPage = widget.initialPage;
@@ -43,7 +44,9 @@ class _PdfScreenState extends State<PdfScreen> {
   static Future<Uint8List> _fetchPdfBytes(String url) async {
     final response = await http.get(Uri.parse(url));
     if (response.statusCode != 200) {
-      throw Exception('Failed to load PDF (HTTP ${response.statusCode})');
+      throw Exception(
+        'Failed to load PDF (HTTP ${response.statusCode}) at $url',
+      );
     }
     return response.bodyBytes;
   }
@@ -111,11 +114,29 @@ class _PdfScreenState extends State<PdfScreen> {
                 const Icon(Icons.wifi_off, size: 48, color: Colors.grey),
                 const SizedBox(height: 12),
                 const Text('Could not load PDF.'),
+                const SizedBox(height: 8),
+                Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 24),
+                  child: Text(
+                    error.toString(),
+                    textAlign: TextAlign.center,
+                    style: const TextStyle(fontSize: 12, color: Colors.grey),
+                  ),
+                ),
+                const SizedBox(height: 6),
+                Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 24),
+                  child: Text(
+                    _pdfUrl,
+                    textAlign: TextAlign.center,
+                    style: const TextStyle(fontSize: 11, color: Colors.grey),
+                  ),
+                ),
                 if (kIsWeb)
                   const Padding(
                     padding: EdgeInsets.only(top: 8),
                     child: Text(
-                      'Ensure PDF.js scripts are loaded in web/index.html.',
+                      'If HTTP 404 is shown above, commit the PDF file to raw_assets/ and redeploy.',
                       style: TextStyle(fontSize: 12, color: Colors.grey),
                     ),
                   ),
