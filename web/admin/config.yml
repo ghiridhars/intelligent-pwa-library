@@ -4,7 +4,7 @@ backend:
   branch: main
   base_url: https://api.netlify.com
   auth_endpoint: auth
-  client_id: YOUR_GITHUB_OAUTH_CLIENT_ID
+  client_id: Ov23liKA3OONo3uqa1Ax
 
 media_folder: raw_assets
 public_folder: raw_assets
