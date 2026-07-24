@@ -1,45 +1,111 @@
-# Miscellaneous
-*.class
-*.log
-*.pyc
-*.swp
-.DS_Store
-.atom/
-.build/
-.buildlog/
-.history
-.svn/
-.swiftpm/
-migrate_working_dir/
-
-# IntelliJ related
-*.iml
-*.ipr
-*.iws
-.idea/
-
-# The .vscode folder contains launch configuration and tasks you configure in
-# VS Code which you may wish to be included in version control, so this line
-# is commented out by default.
-#.vscode/
-
-# Flutter/Dart/Pub related
+# ── Flutter / Dart / Pub ──────────────────────────────────────────────────────
 **/doc/api/
 **/ios/Flutter/.last_build_id
 .dart_tool/
+.flutter-plugins
 .flutter-plugins-dependencies
 .pub-cache/
 .pub/
 /build/
 /coverage/
 
-# Symbolication related
+# Symbolication & obfuscation artefacts
 app.*.symbols
-
-# Obfuscation related
 app.*.map.json
 
-# Android Studio will place build artifacts here
+# Android Studio build output
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# ── Python ────────────────────────────────────────────────────────────────────
+# Virtual environment (created by: python3 -m venv library_env)
+library_env/
+
+# Byte-compiled / cached files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Distribution / packaging
+*.egg-info/
+*.egg
+.eggs/
+dist/           # also used as CI deployment assembly folder — do not commit
+dist_python/
+
+# Testing & coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# ── CI / Deployment artefacts ─────────────────────────────────────────────────
+# dist/ is assembled by the GitHub Actions workflow and pushed to gh-pages.
+# It must never be committed to main.
+dist/
+
+# ── Editors & IDEs ────────────────────────────────────────────────────────────
+# IntelliJ / Android Studio
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code — uncomment if you do NOT want to share workspace settings with the team
+# .vscode/
+
+# Vim / Emacs
+*.swp
+*.swo
+*~
+\#*\#
+.#*
+
+# ── OS-generated ─────────────────────────────────────────────────────────────
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Linux
+.directory
+*~
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ── Node / npm (Decap CMS local development, if applicable) ──────────────────
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# ── Secrets — never commit these ─────────────────────────────────────────────
+.env
+.env.*
+*.pem
+*.key
+secrets.json
+
+# ── Miscellaneous ─────────────────────────────────────────────────────────────
+*.class
+*.log
+.atom/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
