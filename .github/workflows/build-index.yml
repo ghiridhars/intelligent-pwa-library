@@ -1,0 +1,141 @@
+name: Build Index & Deploy
+
+on:
+  push:
+    branches: [main]
+
+# Only one deploy can run at a time to prevent race conditions on gh-pages
+concurrency:
+  group: pages-deploy
+  cancel-in-progress: false
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write   # needed to push to gh-pages branch
+
+    steps:
+      # ── 1. Checkout ─────────────────────────────────────────────────────────
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2   # need HEAD~1 for change detection
+
+      # ── 2. Detect changed PDFs ──────────────────────────────────────────────
+      - name: Detect changed PDFs
+        id: changed_pdfs
+        run: |
+          # List PDF files changed in this push (vs previous commit)
+          CHANGED=$(git diff --name-only HEAD~1 HEAD -- 'raw_assets/*.pdf' || true)
+          echo "changed_pdfs<<EOF" >> "$GITHUB_OUTPUT"
+          echo "$CHANGED" >> "$GITHUB_OUTPUT"
+          echo "EOF" >> "$GITHUB_OUTPUT"
+          if [ -z "$CHANGED" ]; then
+            echo "No PDF changes detected — skipping OCR step."
+          else
+            echo "Changed PDFs:"
+            echo "$CHANGED"
+          fi
+
+      # ── 3. OCR: only run if PDFs changed ────────────────────────────────────
+      - name: Install Tesseract + language packs
+        if: steps.changed_pdfs.outputs.changed_pdfs != ''
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y \
+            tesseract-ocr \
+            tesseract-ocr-mal \
+            tesseract-ocr-tam \
+            tesseract-ocr-hin \
+            tesseract-ocr-san \
+            libtesseract-dev
+
+      - name: Set up Python
+        if: steps.changed_pdfs.outputs.changed_pdfs != ''
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: scripts/requirements.txt
+
+      - name: Install Python dependencies
+        if: steps.changed_pdfs.outputs.changed_pdfs != ''
+        run: pip install -r scripts/requirements.txt
+
+      - name: Run OCR on changed PDFs
+        if: steps.changed_pdfs.outputs.changed_pdfs != ''
+        run: |
+          # For each changed PDF, look up its entry in catalog.json and run ingest.py
+          python - <<'PYEOF'
+          import json, subprocess, sys
+          from pathlib import Path
+
+          with open("data/catalog.json", encoding="utf-8") as f:
+              catalog = json.load(f)
+
+          # Build a map of asset_url -> catalog entry
+          asset_map = {entry["asset_url"]: entry for entry in catalog}
+
+          changed = """${{ steps.changed_pdfs.outputs.changed_pdfs }}""".strip().splitlines()
+
+          # Tesseract pack name comes from the primary_language code
+          lang_to_pack = {"ml": "mal", "ta": "tam", "hi": "hin", "sa": "san"}
+
+          for pdf_path in changed:
+              pdf_path = pdf_path.strip()
+              if not pdf_path or not pdf_path.endswith(".pdf"):
+                  continue
+              entry = asset_map.get(pdf_path)
+              if not entry:
+                  print(f"WARNING: {pdf_path} not in catalog.json — skipping.", file=sys.stderr)
+                  continue
+              lang_code = entry["primary_language"]
+              tess_lang = lang_to_pack.get(lang_code, "mal")
+              cmd = [
+                  "python", "scripts/ingest.py",
+                  "--book-id",  entry["book_id"],
+                  "--pdf",      pdf_path,
+                  "--lang",     tess_lang,
+                  "--output",   entry["index_file"],
+              ]
+              print(f"Running: {' '.join(cmd)}")
+              result = subprocess.run(cmd)
+              if result.returncode != 0:
+                  print(f"ERROR: ingest.py failed for {pdf_path}", file=sys.stderr)
+                  sys.exit(1)
+          PYEOF
+
+      # ── 4. Flutter Web build ─────────────────────────────────────────────────
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+
+      - name: Install Flutter dependencies
+        run: flutter pub get
+
+      - name: Build Flutter Web
+        run: |
+          # Replace 'library-manager' with your actual GitHub repository name
+          flutter build web --base-href /library-manager/ --release
+
+      # ── 5. Assemble deployment artefact ─────────────────────────────────────
+      - name: Assemble dist/
+        run: |
+          mkdir -p dist
+          # Flutter web output
+          cp -r build/web/. dist/
+          # JSON indices (may have been updated by OCR step)
+          cp -r data dist/data
+          # PDFs (publicly served)
+          cp -r raw_assets dist/raw_assets
+
+      # ── 6. Deploy to gh-pages branch ────────────────────────────────────────
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          # Keep the admin/ folder from web/admin/ — it's already in build/web/
+          # because Flutter copies the web/ directory into the build output.
