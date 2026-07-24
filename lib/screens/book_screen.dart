@@ -38,6 +38,29 @@ class _BookScreenState extends State<BookScreen> {
     super.dispose();
   }
 
+  Future<void> _refreshIndex() async {
+    setState(() {
+      _indexFuture = AppServices.of(context)
+          .catalog
+          .fetchBookIndex(widget.book, forceRefresh: true)
+          .then((songs) {
+        _allSongs = songs;
+        _filtered = songs;
+        return songs;
+      });
+    });
+
+    try {
+      await _indexFuture;
+      if (!mounted) return;
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(content: Text('Index refreshed from server.')),
+      );
+    } catch (_) {
+      // FutureBuilder already renders the detailed error.
+    }
+  }
+
   void _onSearchChanged(String query) {
     final results = AppServices.of(context)
         .search
@@ -51,6 +74,13 @@ class _BookScreenState extends State<BookScreen> {
       appBar: AppBar(
         title: Text(widget.book.title),
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
+        actions: [
+          IconButton(
+            tooltip: 'Refresh index',
+            icon: const Icon(Icons.refresh),
+            onPressed: _refreshIndex,
+          ),
+        ],
       ),
       body: FutureBuilder<List<Song>>(
         future: _indexFuture,

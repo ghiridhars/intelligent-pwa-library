@@ -51,12 +51,15 @@ class CatalogService {
 
   /// Returns the song index for [book].
   ///
-  /// Checks the persistent Hive cache first. Falls back to an HTTP fetch
-  /// and writes the result to cache for offline use on subsequent opens.
-  Future<List<Song>> fetchBookIndex(Book book) async {
-    // Check offline cache first
-    final cached = await _cache.loadBookIndex(book.bookId);
-    if (cached != null) return cached;
+  /// Checks the persistent Hive cache first (unless [forceRefresh] is true).
+  /// Falls back to an HTTP fetch and writes the result to cache for offline
+  /// use on subsequent opens.
+  Future<List<Song>> fetchBookIndex(Book book, {bool forceRefresh = false}) async {
+    // Check offline cache first unless a network refresh is explicitly requested.
+    if (!forceRefresh) {
+      final cached = await _cache.loadBookIndex(book.bookId);
+      if (cached != null) return cached;
+    }
 
     // Fetch from network
     final uri = AppConfig.resolveUrl(book.indexFile);
