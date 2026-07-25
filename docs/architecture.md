@@ -71,6 +71,7 @@ lib/                    Flutter/Dart source
     book.dart           Catalog entry model (deserialized from catalog.json)
     song.dart           Song index entry model (deserialized from book index JSON)
   screens/
+    login_screen.dart   Basic hardcoded authentication barrier
     library_screen.dart Book catalog list with pull-to-refresh
     book_screen.dart    Per-book search with live filtering
     pdf_screen.dart     PDF viewer (pdfx, opens at song's page number)
@@ -103,8 +104,9 @@ docs/                   This documentation
 
 ### Startup
 1. `main()` initialises Hive, then calls `runApp(LibraryApp())`.
-2. `LibraryScreen` calls `CatalogService.fetchCatalog()`.
-3. `CatalogService` fetches `data/catalog.json` via HTTP and holds it in memory for the session.
+2. `LoginScreen` is presented. Upon entering the correct password, it routes to `/library`.
+3. `LibraryScreen` calls `CatalogService.fetchCatalog()`.
+4. `CatalogService` fetches `data/catalog.json` via HTTP and holds it in memory for the session.
 4. The catalog list is displayed.
 
 ### Opening a book

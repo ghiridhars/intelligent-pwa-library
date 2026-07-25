@@ -15,6 +15,7 @@ The repository is organized to separate the frontend application shell from the 
 │   │   ├── book.dart            # Catalog entry model
 │   │   └── song.dart            # Search index entry model
 │   ├── screens/
+│   │   ├── login_screen.dart    # Basic authentication barrier
 │   │   ├── library_screen.dart  # Book catalog view
 │   │   ├── book_screen.dart     # Per-book search and page list
 │   │   └── pdf_screen.dart      # PDF viewer
@@ -105,7 +106,7 @@ pip install pytesseract pdfplumber PyPDF2
 
 ```
 
-The ingestion script (`ingest.py`) processes every page of the PDF individually. For each page it: (1) renders the page to an image via `pdfplumber`, (2) runs Tesseract with the language pack specified in the book's catalog entry (e.g., `--lang mal` for Malayalam, `--lang tam` for Tamil), and (3) extracts the topmost non-whitespace text block as the song title, associating it with the page number.
+The ingestion script (`ingest.py`) processes every page of the PDF individually. For each page it: (1) renders the page to an image via `pdfplumber`, (2) runs Tesseract with the language pack specified in the book's catalog entry, and (3) identifies the text line with the largest font size (bounding box height) as the song title. It also automatically transliterates the native title to an English phonetic representation (`title_en`) using the `indic-transliteration` library.
 
 Generated JSON index files are written to `/data/indices/`. **A human review step is required before committing the output**: OCR may misread complex or traditional typography, and overflow pages (where a song from the previous page continues with no title) will produce incorrect entries. The review step should be done locally before pushing to `main`.
 
@@ -134,7 +135,7 @@ git push origin main
 
 ## 6. Frontend Implementation (Flutter)
 
-The frontend is a Flutter application compiled to three targets from a single Dart codebase.
+The frontend is a Flutter application compiled to three targets from a single Dart codebase. It includes a basic hardcoded authentication barrier (`LoginScreen`) to protect the library content, as well as global state management for a dark/light theme toggle and an editable username.
 
 **Target Platforms**
 - **Web**: `flutter build web --base-href /repo-name/` — deployed to GitHub Pages as a PWA (installable, offline catalog and search).

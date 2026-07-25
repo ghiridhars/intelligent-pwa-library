@@ -10,7 +10,7 @@
 graph LR
     A[PDF file\nraw_assets/book.pdf] --> B[pdfplumber\nrender page to image]
     B --> C[Tesseract OCR\n--lang mal/tam/hin/san]
-    C --> D[Extract topmost\nnon-empty line]
+    C --> D[Identify line with\nlargest font size]
     D --> E[Write entry\nto JSON array]
     E --> F[data/indices/book.json]
 ```
@@ -18,8 +18,9 @@ graph LR
 For every page in the PDF, the script:
 1. Renders the page to a PIL image at the configured DPI.
 2. Runs Tesseract with the book's language pack.
-3. Takes the **topmost non-empty text line** as the song title — this assumes each page starts with a song title header.
-4. Writes a JSON entry with `song_id`, `title_native`, `page_number`, and empty fields for `title_en`, `category`, and `tags` that you fill in manually.
+3. Groups the extracted words by line and identifies the **text line with the largest font size (bounding box height)** as the song title.
+4. Transliterates the native title to English characters (`title_en`) automatically using `indic-transliteration`.
+5. Writes a JSON entry with `song_id`, `title_native`, `title_en`, `page_number`, and empty fields for `category` and `tags` that you fill in manually.
 
 ---
 
@@ -121,7 +122,7 @@ The script writes a JSON array. Each entry looks like this:
 {
   "song_id": "bhajanamritam_01_0188_anchel",
   "title_native": "അഞ്ചേൽ",
-  "title_en": "",
+  "title_en": "a~nchel",
   "language": "ml",
   "category": "",
   "page_number": 188,
@@ -129,7 +130,7 @@ The script writes a JSON array. Each entry looks like this:
 }
 ```
 
-Fields left empty by the script (`title_en`, `category`, `tags`) must be filled in manually during review.
+Fields left empty by the script (`category`, `tags`) must be filled in manually during review. The `title_en` field is populated automatically but can be corrected if the transliteration is off.
 
 ---
 
@@ -166,7 +167,7 @@ After cleaning up OCR errors, fill in the empty fields:
 
 | Field | What to put |
 |---|---|
-| `title_en` | English phonetic transliteration. E.g. `"Anchel"` for `"അഞ്ചേൽ"`. This enables English-phonetic search in the app. |
+| `title_en` | English phonetic transliteration. Auto-populated by the script using `indic-transliteration`, but review and correct if necessary. |
 | `category` | Deity or subject. E.g. `"Ganapati"`, `"Murugan"`, `"Shiva"`. Used for search and displayed as a chip in the song list. |
 | `tags` | Lowercase keywords: raga name, tala, occasion, etc. E.g. `["kuntalavarali", "adi", "murugan"]`. |
 
@@ -227,7 +228,6 @@ Add post-processing to reduce manual edits:
 
 1. Header/footer suppression using page region cropping before OCR.
 2. Language fallback pass for mixed-language books (e.g. run `tam` then retry failed pages with `san`).
-3. Transliteration helper script to prefill `title_en` suggestions (human-verified before commit).
 
 This can cut manual review time significantly, but still requires approval.
 
