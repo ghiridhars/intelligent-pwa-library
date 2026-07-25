@@ -79,14 +79,14 @@ class LibraryApp extends StatelessWidget {
             themeMode: themeMode,
             theme: ThemeData(
               colorScheme: ColorScheme.fromSeed(
-                seedColor: const Color(0xFF6B3FA0), // deep purple
+                seedColor: const Color(0xFF0D47A1), // dark blue
                 brightness: Brightness.light,
               ),
               useMaterial3: true,
             ),
             darkTheme: ThemeData(
               colorScheme: ColorScheme.fromSeed(
-                seedColor: const Color(0xFF6B3FA0),
+                seedColor: const Color(0xFF0D47A1), // dark blue
                 brightness: Brightness.dark,
               ),
               useMaterial3: true,

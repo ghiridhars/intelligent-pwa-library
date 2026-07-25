@@ -59,7 +59,7 @@ class _LibraryScreenState extends State<LibraryScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Library'),
+        title: const Text('Bhajan Library'),
         centerTitle: false,
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         actions: [
@@ -82,8 +82,19 @@ class _LibraryScreenState extends State<LibraryScreen> {
           ),
         ],
       ),
-      body: FutureBuilder<List<Book>>(
-        future: _catalogFuture,
+      body: Container(
+        decoration: BoxDecoration(
+          image: DecorationImage(
+            image: const AssetImage('assets/bhajan_cover.jpeg'),
+            fit: BoxFit.cover,
+            colorFilter: ColorFilter.mode(
+              Colors.black.withOpacity(0.15),
+              BlendMode.dstATop,
+            ),
+          ),
+        ),
+        child: FutureBuilder<List<Book>>(
+          future: _catalogFuture,
         builder: (context, snapshot) {
           if (snapshot.connectionState == ConnectionState.waiting) {
             return const Center(child: CircularProgressIndicator());
