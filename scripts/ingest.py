@@ -28,6 +28,7 @@ from pathlib import Path
 
 import pdfplumber
 import pytesseract
+from pytesseract import Output
 from PIL import Image
 
 
@@ -42,15 +43,48 @@ LANG_LABELS = {
 
 def extract_title_from_page(page_image: Image.Image, lang: str) -> str:
     """
-    Run Tesseract OCR on a page image and return the first non-empty text line
+    Run Tesseract OCR on a page image and return the text line with the largest font
     as the presumed song title.
 
-    The topmost text block on a songbook page is typically the song title.
+    The largest text on a songbook page is typically the song title.
     Empty string is returned for blank or unreadable pages.
     """
-    raw = pytesseract.image_to_string(page_image, lang=lang, config="--psm 3")
-    lines = [line.strip() for line in raw.splitlines() if line.strip()]
-    return lines[0] if lines else ""
+    data = pytesseract.image_to_data(page_image, lang=lang, config="--psm 3", output_type=Output.DICT)
+    
+    lines_data = {}
+    
+    n_boxes = len(data['level'])
+    for i in range(n_boxes):
+        if data['level'][i] == 5:  # Level 5 corresponds to a word
+            text = data['text'][i].strip()
+            if not text:
+                continue
+                
+            block_num = data['block_num'][i]
+            par_num = data['par_num'][i]
+            line_num = data['line_num'][i]
+            height = data['height'][i]
+            
+            line_key = (block_num, par_num, line_num)
+            if line_key not in lines_data:
+                lines_data[line_key] = {
+                    'text_parts': [],
+                    'max_height': 0
+                }
+            
+            lines_data[line_key]['text_parts'].append(text)
+            if height > lines_data[line_key]['max_height']:
+                lines_data[line_key]['max_height'] = height
+
+    if not lines_data:
+        return ""
+
+    # Sort lines by their maximum word height in descending order
+    sorted_lines = sorted(lines_data.values(), key=lambda x: x['max_height'], reverse=True)
+    
+    # Return the text from the line with the largest height
+    best_line = sorted_lines[0]
+    return " ".join(best_line['text_parts'])
 
 
 def slugify(text: str) -> str:

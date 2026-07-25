@@ -26,7 +26,7 @@ class PdfScreen extends StatefulWidget {
 }
 
 class _PdfScreenState extends State<PdfScreen> {
-  late PdfController _controller;
+  late PdfControllerPinch _controller;
   int _currentPage = 1;
   late String _pdfUrl;
 
@@ -34,7 +34,7 @@ class _PdfScreenState extends State<PdfScreen> {
   void initState() {
     super.initState();
     _pdfUrl = AppConfig.resolveUrl(widget.book.assetUrl).toString();
-    _controller = PdfController(
+    _controller = PdfControllerPinch(
       document: PdfDocument.openData(_fetchPdfBytes(_pdfUrl)),
       initialPage: widget.initialPage,
     );
@@ -80,28 +80,22 @@ class _PdfScreenState extends State<PdfScreen> {
             icon: const Icon(Icons.navigate_before),
             tooltip: 'Previous page',
             onPressed: _currentPage > 1
-                ? () => _controller.previousPage(
-                      curve: Curves.ease,
-                      duration: const Duration(milliseconds: 200),
-                    )
+                ? () => _controller.jumpToPage(_currentPage - 1)
                 : null,
           ),
           IconButton(
             icon: const Icon(Icons.navigate_next),
             tooltip: 'Next page',
             onPressed: _currentPage < widget.book.pageCount
-                ? () => _controller.nextPage(
-                      curve: Curves.ease,
-                      duration: const Duration(milliseconds: 200),
-                    )
+                ? () => _controller.jumpToPage(_currentPage + 1)
                 : null,
           ),
         ],
       ),
-      body: PdfView(
+      body: PdfViewPinch(
         controller: _controller,
         onPageChanged: (page) => setState(() => _currentPage = page),
-        builders: PdfViewBuilders<DefaultBuilderOptions>(
+        builders: PdfViewPinchBuilders<DefaultBuilderOptions>(
           options: const DefaultBuilderOptions(),
           documentLoaderBuilder: (_) =>
               const Center(child: CircularProgressIndicator()),
@@ -143,6 +137,28 @@ class _PdfScreenState extends State<PdfScreen> {
               ],
             ),
           ),
+        ),
+      ),
+      bottomNavigationBar: BottomAppBar(
+        child: Row(
+          children: [
+            Text('$_currentPage', style: const TextStyle(fontWeight: FontWeight.bold)),
+            Expanded(
+              child: Slider(
+                value: _currentPage.toDouble(),
+                min: 1,
+                max: widget.book.pageCount.toDouble(),
+                onChanged: (val) {
+                  final intPage = val.toInt();
+                  if (intPage != _currentPage) {
+                    setState(() => _currentPage = intPage);
+                    _controller.jumpToPage(intPage);
+                  }
+                },
+              ),
+            ),
+            Text('${widget.book.pageCount}'),
+          ],
         ),
       ),
     );
