@@ -130,6 +130,15 @@ class _BookScreenState extends State<BookScreen> {
                     ),
                   ),
                 ),
+              Padding(
+                padding: const EdgeInsets.fromLTRB(16, 16, 16, 4),
+                child: Text(
+                  'Instructions: You can search by song title in English (Manglish/Tanglish) or native script. You can also search by tags or categories.',
+                  style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                        color: Theme.of(context).colorScheme.outline,
+                      ),
+                ),
+              ),
               _SearchBar(
                 controller: _searchController,
                 onChanged: _onSearchChanged,

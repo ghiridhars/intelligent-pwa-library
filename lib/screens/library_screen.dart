@@ -27,6 +27,34 @@ class _LibraryScreenState extends State<LibraryScreen> {
     });
   }
 
+  Future<void> _editUserName(BuildContext context) async {
+    final controller = TextEditingController(text: userNotifier.value);
+    final newName = await showDialog<String>(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: const Text('Enter your name'),
+        content: TextField(
+          controller: controller,
+          autofocus: true,
+          decoration: const InputDecoration(hintText: 'Name'),
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(context),
+            child: const Text('Cancel'),
+          ),
+          FilledButton(
+            onPressed: () => Navigator.pop(context, controller.text),
+            child: const Text('Save'),
+          ),
+        ],
+      ),
+    );
+    if (newName != null && newName.trim().isNotEmpty) {
+      userNotifier.value = newName.trim();
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -34,6 +62,25 @@ class _LibraryScreenState extends State<LibraryScreen> {
         title: const Text('Library'),
         centerTitle: false,
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
+        actions: [
+          ValueListenableBuilder<String>(
+            valueListenable: userNotifier,
+            builder: (context, name, _) => TextButton.icon(
+              icon: const Icon(Icons.person),
+              label: Text(name),
+              onPressed: () => _editUserName(context),
+            ),
+          ),
+          ValueListenableBuilder<ThemeMode>(
+            valueListenable: themeNotifier,
+            builder: (context, mode, _) => IconButton(
+              icon: Icon(mode == ThemeMode.dark ? Icons.light_mode : Icons.dark_mode),
+              onPressed: () {
+                themeNotifier.value = mode == ThemeMode.dark ? ThemeMode.light : ThemeMode.dark;
+              },
+            ),
+          ),
+        ],
       ),
       body: FutureBuilder<List<Book>>(
         future: _catalogFuture,
@@ -53,12 +100,28 @@ class _LibraryScreenState extends State<LibraryScreen> {
           }
           return RefreshIndicator(
             onRefresh: _refresh,
-            child: ListView.separated(
-              padding: const EdgeInsets.symmetric(vertical: 12, horizontal: 16),
-              itemCount: books.length,
-              separatorBuilder: (context, _) => const SizedBox(height: 10),
-              itemBuilder: (context, index) =>
-                  _BookCard(book: books[index]),
+            child: Column(
+              children: [
+                Padding(
+                  padding: const EdgeInsets.all(16.0),
+                  child: Text(
+                    'This is the list of books that are currently indexed.',
+                    style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                      color: Theme.of(context).colorScheme.outline,
+                    ),
+                    textAlign: TextAlign.center,
+                  ),
+                ),
+                Expanded(
+                  child: ListView.separated(
+                    padding: const EdgeInsets.symmetric(horizontal: 16),
+                    itemCount: books.length,
+                    separatorBuilder: (context, _) => const SizedBox(height: 10),
+                    itemBuilder: (context, index) =>
+                        _BookCard(book: books[index]),
+                  ),
+                ),
+              ],
             ),
           );
         },

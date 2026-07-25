@@ -6,7 +6,11 @@ import 'screens/login_screen.dart';
 import 'screens/book_screen.dart';
 import 'screens/pdf_screen.dart';
 import 'services/catalog_service.dart';
+import 'services/catalog_service.dart';
 import 'services/search_service.dart';
+
+final themeNotifier = ValueNotifier<ThemeMode>(ThemeMode.light);
+final userNotifier = ValueNotifier<String>('Guest');
 
 /// Makes [CatalogService] and [SearchService] available to the whole widget tree.
 class AppServices extends InheritedWidget {
@@ -66,16 +70,30 @@ class LibraryApp extends StatelessWidget {
     return AppServices(
       catalog: CatalogService(),
       search: SearchService(),
-      child: MaterialApp.router(
-        title: 'Library Manager',
-        debugShowCheckedModeBanner: false,
-        theme: ThemeData(
-          colorScheme: ColorScheme.fromSeed(
-            seedColor: const Color(0xFF6B3FA0), // deep purple
-          ),
-          useMaterial3: true,
-        ),
-        routerConfig: _router,
+      child: ValueListenableBuilder<ThemeMode>(
+        valueListenable: themeNotifier,
+        builder: (context, themeMode, _) {
+          return MaterialApp.router(
+            title: 'Library Manager',
+            debugShowCheckedModeBanner: false,
+            themeMode: themeMode,
+            theme: ThemeData(
+              colorScheme: ColorScheme.fromSeed(
+                seedColor: const Color(0xFF6B3FA0), // deep purple
+                brightness: Brightness.light,
+              ),
+              useMaterial3: true,
+            ),
+            darkTheme: ThemeData(
+              colorScheme: ColorScheme.fromSeed(
+                seedColor: const Color(0xFF6B3FA0),
+                brightness: Brightness.dark,
+              ),
+              useMaterial3: true,
+            ),
+            routerConfig: _router,
+          );
+        },
       ),
     );
   }
