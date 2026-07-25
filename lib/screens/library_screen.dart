@@ -88,7 +88,7 @@ class _LibraryScreenState extends State<LibraryScreen> {
             image: const AssetImage('assets/bhajan_cover.jpeg'),
             fit: BoxFit.cover,
             colorFilter: ColorFilter.mode(
-              Colors.black.withOpacity(0.15),
+              Colors.black.withValues(alpha: 0.15),
               BlendMode.dstATop,
             ),
           ),
@@ -136,6 +136,7 @@ class _LibraryScreenState extends State<LibraryScreen> {
             ),
           );
         },
+      ),
       ),
     );
   }

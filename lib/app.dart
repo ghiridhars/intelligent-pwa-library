@@ -6,7 +6,6 @@ import 'screens/login_screen.dart';
 import 'screens/book_screen.dart';
 import 'screens/pdf_screen.dart';
 import 'services/catalog_service.dart';
-import 'services/catalog_service.dart';
 import 'services/search_service.dart';
 
 final themeNotifier = ValueNotifier<ThemeMode>(ThemeMode.light);
