@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'models/book.dart';
 import 'screens/library_screen.dart';
+import 'screens/login_screen.dart';
 import 'screens/book_screen.dart';
 import 'screens/pdf_screen.dart';
 import 'services/catalog_service.dart';
@@ -37,6 +38,10 @@ class LibraryApp extends StatelessWidget {
     routes: [
       GoRoute(
         path: '/',
+        builder: (context, _) => const LoginScreen(),
+      ),
+      GoRoute(
+        path: '/library',
         builder: (context, _) => const LibraryScreen(),
       ),
       GoRoute(
