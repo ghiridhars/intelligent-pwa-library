@@ -30,6 +30,8 @@ import pdfplumber
 import pytesseract
 from pytesseract import Output
 from PIL import Image
+from indic_transliteration import sanscript
+from indic_transliteration.sanscript import transliterate
 
 
 # ── Tesseract language code → display name mapping ────────────────────────────
@@ -38,6 +40,14 @@ LANG_LABELS = {
     "tam": "ta",
     "hin": "hi",
     "san": "sa",
+}
+
+# ── Tesseract language code → sanscript scheme mapping ────────────────────────
+SANSCRIPT_SCHEMES = {
+    "mal": sanscript.MALAYALAM,
+    "tam": sanscript.TAMIL,
+    "hin": sanscript.DEVANAGARI,
+    "san": sanscript.DEVANAGARI,
 }
 
 
@@ -135,11 +145,15 @@ def process_pdf(
             slug = slugify(title) or f"page_{i}"
             song_id = f"{book_id}_{i:04d}_{slug}"
 
+            title_en = ""
+            if lang in SANSCRIPT_SCHEMES and title:
+                title_en = transliterate(title, SANSCRIPT_SCHEMES[lang], sanscript.ITRANS)
+
             entries.append(
                 {
                     "song_id": song_id,
                     "title_native": title,
-                    "title_en": "",          # Fill in manually or via transliteration
+                    "title_en": title_en,    # Populated via transliteration
                     "language": language_code,
                     "category": "",          # Fill in manually
                     "page_number": i,

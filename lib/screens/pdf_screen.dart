@@ -26,7 +26,7 @@ class PdfScreen extends StatefulWidget {
 }
 
 class _PdfScreenState extends State<PdfScreen> {
-  late PdfControllerPinch _controller;
+  late PdfController _controller;
   int _currentPage = 1;
   late String _pdfUrl;
 
@@ -34,7 +34,7 @@ class _PdfScreenState extends State<PdfScreen> {
   void initState() {
     super.initState();
     _pdfUrl = AppConfig.resolveUrl(widget.book.assetUrl).toString();
-    _controller = PdfControllerPinch(
+    _controller = PdfController(
       document: PdfDocument.openData(_fetchPdfBytes(_pdfUrl)),
       initialPage: widget.initialPage,
     );
@@ -92,10 +92,10 @@ class _PdfScreenState extends State<PdfScreen> {
           ),
         ],
       ),
-      body: PdfViewPinch(
+      body: PdfView(
         controller: _controller,
         onPageChanged: (page) => setState(() => _currentPage = page),
-        builders: PdfViewPinchBuilders<DefaultBuilderOptions>(
+        builders: PdfViewBuilders<DefaultBuilderOptions>(
           options: const DefaultBuilderOptions(),
           documentLoaderBuilder: (_) =>
               const Center(child: CircularProgressIndicator()),
